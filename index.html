@@ -5,27 +5,34 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Shiba Show</title>
-        <script src="https://use.fontawesome.com/221de87d0a.js"></script>
         <link rel="stylesheet" href="./css/index.css" />
+        <link
+            rel="stylesheet"
+            href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+        />
         <link
             href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
             rel="stylesheet"
         />
-        <link rel="shortcut icon" href="favicon.ico">
+        <link rel="shortcut icon" href="favicon.ico" />
     </head>
     <body>
         <div class="header">
-            <a href=""><img src="./images/shiba-show-logo.png" alt="" /></a>
-            <input type="checkbox" id="chk" />
-            <label for="chk" class="show-btn">
+            <input type="checkbox" id="check" />
+            <label for="check" class="show-btn">
                 <i class="fa fa-bars"></i>
             </label>
+            <label for="check" class="hide-btn">
+                <i class="fa fa-times"></i>
+            </label>
+            <div class="logo">
+                <a href="./index.html"
+                    ><img src="./images/shiba-show-logo.png" alt=""
+                /></a>
+            </div>
             <ul class="menu">
                 <li>
-                    <a href="#"><i class="fa fa-video-camera"></i>Video</a>
-                </li>
-                <li>
-                    <a href="#"><i class="fa fa-film"></i>Movies</a>
+                    <a href="#"><i class="fa fa-video-camera"></i>Movies</a>
                 </li>
                 <li>
                     <a href="#"><i class="fa fa-music"></i>Songs</a>
@@ -33,18 +40,15 @@
                 <li>
                     <a href="#"><i class="fa fa-film"></i>Web-Series</a>
                 </li>
-                <!-- <li class="search">
-                    <input
-                        class="form-control me-2"
-                        type="search"
-                        placeholder="Search"
-                        aria-label="Search"
-                    />
-                </li> -->
-                <label for="chk" class="hide-btn">
-                    <i class="fa fa-times"></i>
-                </label>
             </ul>
+            <div class="searchbar">
+                <div class="search-url-bar">
+                    <input type="search" placeholder="Search" />
+                </div>
+                <div class="search-btn">
+                    <a href="#"><i class="fa fa-search"></i></a>
+                </div>
+            </div>
         </div>
     </body>
 </html>
