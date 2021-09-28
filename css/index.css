@@ -128,8 +128,7 @@
 }
 @media screen and (max-width: 550px) {
     .header {
-        height: auto;
-        display: inline=block;
+        height: 120px;
     }
     .searchbar {
         float: left;
