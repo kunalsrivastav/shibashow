@@ -12,11 +12,13 @@
     top: 0;
     background-color: #0c111b;
 }
+
 .logo img {
     width: 155px;
     float: left;
     margin: 20px 0 0 20px;
 }
+
 .menu {
     list-style: none;
     float: left;
@@ -24,9 +26,11 @@
     display: flex;
     align-items: center;
 }
+
 .menu li {
     margin-right: 10px;
 }
+
 .menu li a {
     transition: 0.4s;
     display: block;
@@ -37,13 +41,16 @@
     border-radius: 12px;
     text-transform: uppercase;
 }
+
 .menu li a:hover {
     background: linear-gradient(to right, #82dcff, #e584fc);
     color: black;
 }
+
 .menu li a i {
     margin-right: 8px;
 }
+
 .show-btn,
 .hide-btn,
 #check {
@@ -56,6 +63,7 @@
     position: fixed;
     left: 15px;
 }
+
 .searchbar {
     float: right;
     font-size: 20px;
@@ -64,13 +72,16 @@
     padding: 0 5px 5px 5px;
     min-width: 290px;
 }
+
 .search-url-bar,
 .search-btn {
     display: inline-block;
 }
+
 .search-url-bar {
     margin-right: 8px;
 }
+
 .search-url-bar input[type="search"] {
     background-color: transparent;
     border-top-style: none;
@@ -80,16 +91,20 @@
     outline: none;
     color: white;
 }
+
 .search-btn a {
     text-decoration: none;
     display: block;
 }
+
 .search-btn a i {
     color: lightgray;
 }
+
 .search-btn a i:hover {
     color: white;
 }
+
 @media screen and (max-width: 1000px) {
     .logo img {
         margin-left: 80px;
@@ -117,16 +132,17 @@
         display: block;
         margin: 10px 10px 10px -22px;
     }
-    #check:checked ~ .menu {
+    #check:checked~.menu {
         left: 20px;
     }
-    #check:checked ~ .show-btn {
+    #check:checked~.show-btn {
         visibility: hidden;
     }
-    #check:checked ~ .hide-btn {
+    #check:checked~.hide-btn {
         display: block;
     }
 }
+
 @media screen and (max-width: 550px) {
     .header {
         height: 120px;
@@ -140,8 +156,7 @@
 
 /* CAROUSEL SECTION CSS */
 
-
-.carosel-container{
+.carosel-container {
     position: relative;
     width: 100%;
     height: 450px;
@@ -150,7 +165,7 @@
     margin-top: 80px;
 }
 
-.carosel{
+.carosel {
     display: flex;
     width: 92%;
     height: 100%;
@@ -158,21 +173,20 @@
     margin: auto;
 }
 
-
-.slider{
+.slider {
     flex: 0 0 auto;
     margin-right: 30px;
     position: relative;
-    background: rgba(0, 0, 0,0.5);
+    background: rgba(0, 0, 0, 0.5);
     border-radius: 5px;
     width: 100%;
     height: 100%;
     left: 0;
     transition: 1s;
     overflow: hidden;
-} 
+}
 
-.slider img{
+.slider img {
     width: 70%;
     min-height: 100%;
     object-fit: cover;
@@ -180,7 +194,7 @@
     margin-left: auto;
 }
 
-.slide-content{
+.slide-content {
     position: absolute;
     width: 50%;
     height: 100%;
@@ -189,17 +203,16 @@
     color: #fff;
 }
 
-.movie-title{
+.movie-title {
     padding-left: 50px;
     text-transform: capitalize;
     margin-top: 80px;
 }
 
-.movie-des{
+.movie-des {
     width: 80%;
     line-height: 30px;
     padding-left: 50px;
     margin-top: 30px;
     opacity: 0.8;
-} 
-
+}
