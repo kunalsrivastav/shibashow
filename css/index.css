@@ -105,6 +105,20 @@
     color: white;
 }
 
+#footer {
+    background-color: #0c111b;
+    height: 150px;
+    margin-top: 100%;
+}
+
+#footer>p {
+    font-size: 20px;
+    color: whitesmoke;
+    text-align: left;
+    padding: 20px;
+    margin-left: 25px;
+}
+
 @media screen and (max-width: 1000px) {
     .logo img {
         margin-left: 80px;
