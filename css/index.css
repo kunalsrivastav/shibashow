@@ -111,7 +111,7 @@
     margin-top: 100%;
 }
 
-#footer>p {
+#footer > p {
     font-size: 20px;
     color: whitesmoke;
     text-align: left;
@@ -146,13 +146,13 @@
         display: block;
         margin: 10px 10px 10px -22px;
     }
-    #check:checked~.menu {
+    #check:checked ~ .menu {
         left: 20px;
     }
-    #check:checked~.show-btn {
+    #check:checked ~ .show-btn {
         visibility: hidden;
     }
-    #check:checked~.hide-btn {
+    #check:checked ~ .hide-btn {
         display: block;
     }
 }
@@ -166,7 +166,6 @@
         margin: 15px 0 10px 20px;
     }
 }
-
 
 /* CAROUSEL SECTION CSS */
 
