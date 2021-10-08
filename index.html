@@ -1,216 +1,162 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Shiba Show</title>
-        <link rel="stylesheet" href="./css/index.css" />
-        <link
-            rel="stylesheet"
-            href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
-        />
-        <link rel="stylesheet" href="css/bootstrap.min.css" />
-        <link rel="shortcut icon" href="favicon.ico" />
-    </head>
 
-    <body>
-        <div class="homepage">
-            <div class="header">
-                <input type="checkbox" id="check" />
-                <label for="check" class="show-btn">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shiba Show</title>
+    <link rel="stylesheet" href="./css/index.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="shortcut icon" href="favicon.ico" />
+</head>
+
+<body>
+    <div class="homepage">
+        <div class="header">
+            <input type="checkbox" id="check" />
+            <label for="check" class="show-btn">
                     <i class="fa fa-bars"></i>
                 </label>
-                <label for="check" class="hide-btn">
+            <label for="check" class="hide-btn">
                     <i class="fa fa-times"></i>
                 </label>
-                <div class="logo">
-                    <a href="./index.html"
-                        ><img src="./images/shiba-show-logo.png" alt=""
-                    /></a>
+            <div class="logo">
+                <a href="./index.html"><img src="./images/shiba-show-logo.png" alt="" /></a>
+            </div>
+            <ul class="menu">
+                <li>
+                    <a href="#"><i class="fa fa-video-camera"></i>Movies</a>
+                </li>
+                <li>
+                    <a href="#"><i class="fa fa-music"></i>Songs</a>
+                </li>
+                <li>
+                    <a href="#"><i class="fa fa-film"></i>Web-Series</a>
+                </li>
+            </ul>
+            <div class="searchbar">
+                <div class="search-url-bar">
+                    <input type="search" placeholder="Search" />
                 </div>
-                <ul class="menu">
-                    <li>
-                        <a href="#"><i class="fa fa-video-camera"></i>Movies</a>
-                    </li>
-                    <li>
-                        <a href="#"><i class="fa fa-music"></i>Songs</a>
-                    </li>
-                    <li>
-                        <a href="#"><i class="fa fa-film"></i>Web-Series</a>
-                    </li>
-                </ul>
-                <div class="searchbar">
-                    <div class="search-url-bar">
-                        <input type="search" placeholder="Search" />
-                    </div>
-                    <div class="search-btn">
-                        <a href="#"><i class="fa fa-search"></i></a>
-                    </div>
+                <div class="search-btn">
+                    <a href="#"><i class="fa fa-search"></i></a>
                 </div>
             </div>
-
-            <!-- COROUSEL SECTION -->
-
-            <div
-                id="carouselExampleIndicators"
-                class="carousel slide"
-                data-ride="carousel"
-            >
-                <ol class="carousel-indicators">
-                    <li
-                        data-target="#carouselExampleIndicators"
-                        data-slide-to="0"
-                        class="active"
-                    ></li>
-                    <li
-                        data-target="#carouselExampleIndicators"
-                        data-slide-to="1"
-                    ></li>
-                    <li
-                        data-target="#carouselExampleIndicators"
-                        data-slide-to="2"
-                    ></li>
-                </ol>
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <div class="carosel-container">
-                            <div class="carosel">
-                                <div class="slider">
-                                    <div class="slide-content">
-                                        <h1 class="movie-title">
-                                            K.G.F: Chapter 1
-                                        </h1>
-                                        <p class="movie-des">
-                                            Rocky, a young man, seeks power and
-                                            wealth in order to fulfil a promise
-                                            to his dying mother. His quest takes
-                                            him to Mumbai, where he gets
-                                            involved with the notorious gold
-                                            mafia.
-                                        </p>
-                                    </div>
-                                    <img src="./images/kgf2.jpg" alt="" />
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="carousel-item">
-                        <div class="carosel-container">
-                            <div class="carosel">
-                                <div class="slider">
-                                    <div class="slide-content">
-                                        <h1 class="movie-title">Dil Bechara</h1>
-                                        <p class="movie-des">
-                                            Kizie and Manny, two ordinary people
-                                            brought together by a tragic twist,
-                                            embark on a bittersweet and
-                                            extraordinary journey into the heart
-                                            of that carzy little thing called
-                                            'life'.
-                                        </p>
-                                    </div>
-                                    <img
-                                        src="./images/dil bechara2.jpg"
-                                        alt=""
-                                    />
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <div class="carosel-container">
-                            <div class="carosel">
-                                <div class="slider">
-                                    <div class="slide-content">
-                                        <h1 class="movie-title">
-                                            MS Dhoni: The Untold Story
-                                        </h1>
-                                        <p class="movie-des">
-                                            A tell-all tale about the life and
-                                            times of Indian Cricketer, Mahendra
-                                            Singh Dhoni;mapping his journey;
-                                            from a ticket collector to a
-                                            celebrated cricketer.
-                                        </p>
-                                    </div>
-                                    <img src="./images/ms dhoni 2.jpg" alt="" />
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <a
-                    class="carousel-control-prev"
-                    href="#carouselExampleIndicators"
-                    role="button"
-                    data-slide="prev"
-                >
-                    <span
-                        class="carousel-control-prev-icon"
-                        aria-hidden="true"
-                    ></span>
-                    <span class="sr-only">Previous</span>
-                </a>
-                <a
-                    class="carousel-control-next"
-                    href="#carouselExampleIndicators"
-                    role="button"
-                    data-slide="next"
-                >
-                    <span
-                        class="carousel-control-next-icon"
-                        aria-hidden="true"
-                    ></span>
-                    <span class="sr-only">Next</span>
-                </a>
-            </div>
-
-            <!-- CORUSEL SECTIONS ENDS -->
-
-            <!-- FOOTER SECTION STARTS-->
-
-            <footer>
-                <div class="footer">
-                    <div class="social">
-                        <ul class="social-icons">
-                            <li>
-                                <a href="#twitter"
-                                    ><i class="fa fa-twitter"></i
-                                ></a>
-                            </li>
-                            <li>
-                                <a href="#facebook"
-                                    ><i class="fa fa-facebook"></i
-                                ></a>
-                            </li>
-                            <li>
-                                <a href="#instagram"
-                                    ><i class="fa fa-instagram"></i
-                                ></a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="footer-links">
-                        <ul class="footer-menu">
-                            <li><a href="#top">Home</a></li>
-                            <li><a href="#about">About</a></li>
-                            <li><a href="#terms">Terms</a></li>
-                            <li><a href="#privacy">Privacy Policy</a></li>
-                            <li><a href="#faq">FAQ</a></li>
-                            <li><a href="#feeedback">FeedBack</a></li>
-                        </ul>
-                    </div>
-
-                    <p>
-                        Copyright &copy; 2021. All Rights Reserved by Shiba
-                        Show.
-                    </p>
-                </div>
-            </footer>
         </div>
-        <!-- FOOTER SECTION ENDS-->
-        <script src="JS/bootstrap.bundle.min.js"></script>
-    </body>
+
+        <!-- COROUSEL SECTION -->
+
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="carosel-container">
+                        <div class="carosel">
+                            <div class="slider">
+                                <div class="slide-content">
+                                    <h1 class="movie-title">
+                                        K.G.F: Chapter 1
+                                    </h1>
+                                    <p class="movie-des">
+                                        Rocky, a young man, seeks power and wealth in order to fulfil a promise to his dying mother. His quest takes him to Mumbai, where he gets involved with the notorious gold mafia.
+                                    </p>
+                                </div>
+                                <img src="./images/kgf2.jpg" alt="" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <div class="carosel-container">
+                        <div class="carosel">
+                            <div class="slider">
+                                <div class="slide-content">
+                                    <h1 class="movie-title">Dil Bechara</h1>
+                                    <p class="movie-des">
+                                        Kizie and Manny, two ordinary people brought together by a tragic twist, embark on a bittersweet and extraordinary journey into the heart of that carzy little thing called 'life'.
+                                    </p>
+                                </div>
+                                <img src="./images/dil bechara2.jpg" alt="" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="carosel-container">
+                        <div class="carosel">
+                            <div class="slider">
+                                <div class="slide-content">
+                                    <h1 class="movie-title">
+                                        MS Dhoni: The Untold Story
+                                    </h1>
+                                    <p class="movie-des">
+                                        A tell-all tale about the life and times of Indian Cricketer, Mahendra Singh Dhoni;mapping his journey; from a ticket collector to a celebrated cricketer.
+                                    </p>
+                                </div>
+                                <img src="./images/ms dhoni 2.jpg" alt="" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+
+        <!-- CORUSEL SECTIONS ENDS -->
+
+        <!-- FOOTER SECTION STARTS-->
+
+        <footer>
+            <div class="footer">
+                <div class="social">
+                    <ul class="social-icons">
+                        <li>
+                            <a href="#twitter"><i class="fa fa-twitter"></i
+                                ></a>
+                        </li>
+                        <li>
+                            <a href="#facebook"><i class="fa fa-facebook"></i
+                                ></a>
+                        </li>
+                        <li>
+                            <a href="#instagram"><i class="fa fa-instagram"></i
+                                ></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <ul class="footer-menu">
+                        <li><a href="#top">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#terms">Terms</a></li>
+                        <li><a href="#privacy">Privacy Policy</a></li>
+                        <li><a href="#faq">FAQ</a></li>
+                        <li><a href="#feeedback">FeedBack</a></li>
+                    </ul>
+                </div>
+
+                <p>
+                    Copyright &copy; 2021. All Rights Reserved by Shiba Show.
+                </p>
+            </div>
+        </footer>
+    </div>
+    <!-- FOOTER SECTION ENDS-->
+    <script src="JS/bootstrap.bundle.min.js"></script>
+</body>
+
 </html>
