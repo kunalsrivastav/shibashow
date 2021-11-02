@@ -1,51 +1,93 @@
 const data = {
     movies: [{
             title: "Khiladi 786",
-            image: 'https://stat2.bollywoodhungama.in/wp-content/uploads/2016/03/57793575.jpg',
-            duration: "2:24",
-            iframeTag: '<iframe width="420" height="345" src="https://www.youtube.com/embed/OOQlCD5qMPY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
+            image: 'https://img.youtube.com/vi/yP80amXMnEc/mqdefault.jpg',
+            iframeTag: '<iframe width="560" height="315" src="https://www.youtube.com/embed/yP80amXMnEc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
         },
         {
             title: "2 States",
             image: 'https://img1.hotstarext.com/image/upload/f_auto,t_web_m_1x/sources/r1/cms/prod/old_images/MOVIE/4502/1000034502/1000034502-h',
-            duration: "2:00",
             iframeTag: '<iframe width="560" height="315" src="https://www.youtube.com/embed/neB7WugMKT4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
         },
         {
             title: "Welcome Back",
-            image: 'https://www.themoviedb.org/t/p/w780/qq9LLjycYRL20hWjLtnvksEAjum.jpg',
-            duration: "2:03",
+            image: 'https://img.youtube.com/vi/GhZufxyGO-E/mqdefault.jpg',
             iframeTag: '<iframe width="560" height="315" src="https://www.youtube.com/embed/GhZufxyGO-E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
         },
         {
-            title: "Kis Kisko Pyaar Karoon",
-            image: 'https://www.deccanherald.com/sites/dh/files/styles/article_detail/public/article_images/2015/09/25/502789.jpg?itok=vEp3njAu',
-            duration: "2:12",
-            iframeTag: '<iframe width="560" height="315" src="https://www.youtube.com/embed/kGun5Mx5-oI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
+            title: "Barfi",
+            image: 'https://img.youtube.com/vi/TcDmarWK68c/mqdefault.jpg',
+            iframeTag: '<iframe width="560" height="315" src="https://www.youtube.com/embed/TcDmarWK68c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
         },
         {
-            title: "Garam Masala",
-            image: "https://img1.hotstarext.com/image/upload/f_auto,t_web_m_1x/sources/r1/cms/prod/old_images/MOVIE/257/1000100257/1000100257-h",
-            duration: "2:18",
-            iframeTag: '<iframe width="560" height="315" src="https://www.youtube.com/embed/gxBERAhEU7w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
+            title: "Jolly LLB 2",
+            image: 'https://img.youtube.com/vi/uhiWdRBwSQo/mqdefault.jpg',
+            iframeTag: '<iframe width="560" height="315" src="https://www.youtube.com/embed/uhiWdRBwSQo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
         },
         {
             title: "Jodha Akbar",
             image: "https://wallpapercave.com/wp/wp6936628.jpg",
-            duration: "3:07",
             iframeTag: '<iframe width="560" height="315" src="https://www.youtube.com/embed/wgDo0dLm1V4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
         },
         {
-            title: "Border",
-            image: 'https://i.ytimg.com/vi/puqx55lIWN4/hqdefault.jpg',
-            duration: "3:07",
-            iframeTag: '<iframe width="560" height="315" src="https://www.youtube.com/embed/glV9AaLTMZU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
+            title: "Entertainment",
+            image: 'https://img.youtube.com/vi/smLNCbYNQP4/mqdefault.jpg',
+            iframeTag: '<iframe width="560" height="315" src="https://www.youtube.com/embed/smLNCbYNQP4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
         },
         {
-            title: "LOC Kargil",
-            image: "https://loverays.com/movies/LOC_Kargil_Bollywood_Movie_2003.jpg",
-            duration: "4:02",
-            iframeTag: '<iframe width="560" height="315" src="https://www.youtube.com/embed/diBHXLm052o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
+            title: "Bhootnath",
+            image: 'https://img.youtube.com/vi/nICDrYQEiVg/mqdefault.jpg',
+            iframeTag: '<<iframe width="560" height="315" src="https://www.youtube.com/embed/nICDrYQEiVg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
+        },
+        {
+            title: "Kaabil",
+            image: 'https://img.youtube.com/vi/MrU7NK8U6JU/mqdefault.jpg',
+            iframeTag: '<iframe width="560" height="315" src="https://www.youtube.com/embed/MrU7NK8U6JU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
+        },
+        {
+            title: 'Khoobsurat',
+            image: 'https://img.youtube.com/vi/Z-OzON9uiN8/mqdefault.jpg',
+            iframeTag: '<iframe width="560" height="315" src="https://www.youtube.com/embed/Z-OzON9uiN8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
+        },
+        {
+            title: 'Jagga Jasoos',
+            image: 'https://img.youtube.com/vi/ss7Q98Xd5-0/mqdefault.jpg',
+            iframeTag: '<iframe width="560" height="315" src="https://www.youtube.com/embed/ss7Q98Xd5-0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
+        },
+        {
+            title: 'Luka Chuppi',
+            image: 'https://img.youtube.com/vi/P82Vp6Ww4mc/mqdefault.jpg',
+            iframeTag: '<iframe width="560" height="315" src="https://www.youtube.com/embed/P82Vp6Ww4mc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
+        },
+        {
+            title: 'Humshakal',
+            image: 'https://img.youtube.com/vi/KcxTtbZRrxs/mqdefault.jpg',
+            iframeTag: '<iframe width="560" height="315" src="https://www.youtube.com/embed/KcxTtbZRrxs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
+        },
+        {
+            title: 'Race 2',
+            image: 'https://img.youtube.com/vi/61A0l4PU8c0/mqdefault.jpg',
+            iframeTag: '<iframe width="560" height="315" src="https://www.youtube.com/embed/61A0l4PU8c0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
+        },
+        {
+            title: 'Kick',
+            image: 'https://img.youtube.com/vi/AD6h-jpLWZo/mqdefault.jpg',
+            iframeTag: '<iframe width="560" height="315" src="https://www.youtube.com/embed/AD6h-jpLWZo?start=5712" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
+        },
+        {
+            title: 'Housefull',
+            image: 'https://img.youtube.com/vi/7oBJRc4_tQw/mqdefault.jpg',
+            iframeTag: '<iframe width="560" height="315" src="https://www.youtube.com/embed/7oBJRc4_tQw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
+        },
+        {
+            title: 'ABCD 2',
+            image: 'https://img.youtube.com/vi/ySnKGxhA1fA/mqdefault.jpg',
+            iframeTag: '<iframe width="560" height="315" src="https://www.youtube.com/embed/ySnKGxhA1fA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
+        },
+        {
+            title: "Shoot At Wadala",
+            image: 'https://img.youtube.com/vi/NYnH5mcGBmg/mqdefault.jpg',
+            iframeTag: '<iframe width="560" height="315" src="https://www.youtube.com/embed/NYnH5mcGBmg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
         }
     ],
     songs: [{
@@ -263,3 +305,57 @@ const data = {
         ]
     ],
 };
+
+
+// Movies Section
+var movieBox = document.querySelector(".movie-box");
+const totalMovies = data.movies.length;
+for (var i = 0; i < totalMovies; i++) {
+    var movieCard = document.createElement("div");
+    if (i !== totalMovies - 1) {
+        movieCard.style.marginRight = "10px";
+    }
+    movieCard.classList.add("movie-card");
+    movieCard.style.backgroundImage = "url(" + data.movies[i].image + ")";
+    var watchBtn = document.createElement("button");
+    watchBtn.innerHTML = '<i class="fa fa-play"></i> Watch Now';
+    watchBtn.classList.add("watch-btn");
+    watchBtn.setAttribute('id', i);
+    watchBtn.setAttribute('data-toggle', 'modal');
+    watchBtn.setAttribute('data-target', '#myModal');
+    watchBtn.setAttribute('onclick', 'openMovieModal(' + i + ')');
+    movieCard.appendChild(watchBtn);
+    movieBox.appendChild(movieCard);
+}
+
+function openMovieModal(id) {
+    var index = parseInt(id);
+    var main = document.querySelector(".movie-section");
+    var newDiv = document.createElement('div');
+    newDiv.classList.add("player");
+    newDiv.innerHTML =  '<div class="modal fade" id="myModal" role="dialog">' + 
+                            '<div class="modal-dialog">' +
+                                '<div class="modal-content">' +
+                                    '<div class="modal-header">' +
+                                        '<button type="button" class="close" data-dismiss="modal">&times;</button>' + 
+                                        '<h4 class="modal-title">' + data.movies[index].title + '</h4>' + 
+                                    '</div>' + 
+                                    '<div class="modal-body">' + 
+                                        data.movies[index].iframeTag + 
+                                    '</div>' + 
+                                    '<div class="modal-footer">' +
+                                        '<button type="button" class="btn btn-default delMod" data-dismiss="modal">Close</button>' +
+                                    '</div>' +
+                                '</div>' + 
+                            '</div>' + 
+                        '</div>';
+    main.appendChild(newDiv);
+    document.querySelector('.close').onclick = delMovieModal;
+    document.querySelector('.delMod').onclick = delMovieModal;
+}
+
+function delMovieModal() {
+    var parent = document.querySelector('.movie-section');
+    parent.removeChild(parent.childNodes[5]);
+    
+}
