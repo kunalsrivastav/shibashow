@@ -1,9 +1,9 @@
 const data = {
     movies: [{
-            title: "DJ",
-            image: 'https://wallpaperaccess.com/full/3483788.jpg',
+            title: "Khiladi 786",
+            image: 'https://stat2.bollywoodhungama.in/wp-content/uploads/2016/03/57793575.jpg',
             duration: "2:24",
-            iframeTag: '<iframe width="560" height="315" src="https://www.youtube.com/embed/OOQlCD5qMPY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
+            iframeTag: '<iframe width="420" height="345" src="https://www.youtube.com/embed/OOQlCD5qMPY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
         },
         {
             title: "2 States",
@@ -48,8 +48,7 @@ const data = {
             iframeTag: '<iframe width="560" height="315" src="https://www.youtube.com/embed/diBHXLm052o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
         }
     ],
-    songs: [
-        {
+    songs: [{
             title: "Suna Hai",
             duration: "3:28",
             iframeTag: '<iframe width="560" height="315" src="https://www.youtube.com/embed/FU3bJe2TDAw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
@@ -60,9 +59,9 @@ const data = {
             iframeTag: '<iframe width="560" height="315" src="https://www.youtube.com/embed/TUVcZfQe-Kw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
         },
         {
-           title: "Kabhi Tumhe",
-           duration: "3:40",
-           iframeTag: '<iframe width="560" height="315" src="https://www.youtube.com/embed/ByIZIKFmHOA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>' 
+            title: "Kabhi Tumhe",
+            duration: "3:40",
+            iframeTag: '<iframe width="560" height="315" src="https://www.youtube.com/embed/ByIZIKFmHOA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
         },
         {
             title: "Zaroori Tha",
@@ -127,8 +126,7 @@ const data = {
 
     ],
     webseries: [
-        [
-            {
+        [{
                 seriesName: "Aspirants",
                 totalEpisodes: 5
             },
@@ -145,7 +143,7 @@ const data = {
             {
                 title: "Positive Approach Rakh Yaar",
                 duration: "45:36",
-                iframeTag : '<iframe width="560" height="315" src="https://www.youtube.com/embed/WeWXC_ivl5s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
+                iframeTag: '<iframe width="560" height="315" src="https://www.youtube.com/embed/WeWXC_ivl5s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
             },
             {
                 title: "Plan B Kya Hai?",
@@ -158,8 +156,7 @@ const data = {
                 iframeTag: '<iframe width="560" height="315" src="https://www.youtube.com/embed/5H8xQF0PwvA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
             }
         ],
-        [
-            {
+        [{
                 seriesName: "Kota Factory",
                 totalEpisodes: 5
             },
@@ -189,8 +186,7 @@ const data = {
                 iframeTag: '<iframe width="560" height="315" src="https://www.youtube.com/embed/923ks1pc0LQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
             }
         ],
-        [
-            {
+        [{
                 seriesName: "The Age of A.I.",
                 totalEpisodes: 8
             },
@@ -235,13 +231,12 @@ const data = {
                 iframeTag: '<iframe width="560" height="315" src="https://www.youtube.com/embed/VwtC_4t2g5M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
             }
         ],
-        [
-            {
+        [{
                 seriesName: "Cubicles",
                 totalEpisodes: 5
             },
             {
-                title: "Access Denied", 
+                title: "Access Denied",
                 duration: "25:33",
                 iframeTag: '<iframe width="560" height="315" src="https://www.youtube.com/embed/JbBsqmKclXE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
             },
@@ -268,4 +263,3 @@ const data = {
         ]
     ],
 };
-
