@@ -218,6 +218,10 @@
     position: relative;
 }
 
+.movie-box :hover {
+    transform: scale(1.04);
+}
+
 .watch-btn {
     position: absolute;
     bottom: 10px;
