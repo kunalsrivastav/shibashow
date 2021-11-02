@@ -250,6 +250,41 @@
 
 /* Movie Section Ends */
 
+/* Song Section Starts */
+.songs-section {
+    width: 100%;
+    height: auto;
+    padding: 10px;
+}
+
+.songs-section h1 {
+    margin: 10px 0px 10px 10px;
+    color: white;
+}
+
+.song-box {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding: 10px;
+    margin: 10px 10px 10px 10px;
+    height: auto;
+    width: auto;
+    overflow: scroll;
+}
+
+.song-card {
+    min-width: 320px;
+    height: 180px;
+    border-radius: 12px;
+    border: 1px solid white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+/* Song Section Ends */
+
 iframe {
     border-radius: 10px;
 }

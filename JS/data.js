@@ -90,82 +90,142 @@ const data = {
             iframeTag: '<iframe width="560" height="315" src="https://www.youtube.com/embed/NYnH5mcGBmg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
         }
     ],
-    songs: [{
-            title: "Suna Hai",
-            duration: "3:28",
-            iframeTag: '<iframe width="560" height="315" src="https://www.youtube.com/embed/FU3bJe2TDAw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
+    songs: [
+        {
+            title: "Param Sundari",
+            image: 'https://img.youtube.com/vi/w4ClQO0FFQg/mqdefault.jpg',
+            iframeTag: '<iframe width="560" height="315" src="https://www.youtube.com/embed/w4ClQO0FFQg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>>'
         },
         {
-            title: "Levitating",
-            duration: "3:50",
-            iframeTag: '<iframe width="560" height="315" src="https://www.youtube.com/embed/TUVcZfQe-Kw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
+            title: "Manike Mage Hithe",
+            image: 'https://img.youtube.com/vi/PgCliOxl41o/mqdefault.jpg',
+            iframeTag: '<iframe width="560" height="315" src="https://www.youtube.com/embed/PgCliOxl41o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
         },
         {
-            title: "Kabhi Tumhe",
-            duration: "3:40",
-            iframeTag: '<iframe width="560" height="315" src="https://www.youtube.com/embed/ByIZIKFmHOA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
+           title: "Kabhi Tumhe",
+           image: 'https://img.youtube.com/vi/ByIZIKFmHOA/mqdefault.jpg',
+           iframeTag: '<iframe width="560" height="315" src="https://www.youtube.com/embed/ByIZIKFmHOA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>' 
         },
         {
-            title: "Zaroori Tha",
-            duration: "5:16",
-            iframeTag: '<iframe width="560" height="315" src="https://www.youtube.com/embed/6-n_szx2XRE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
+            title: "Mann Bharryaa",
+            image: 'https://img.youtube.com/vi/1poXN3jF3Bw/mqdefault.jpg',
+            iframeTag: '<iframe width="560" height="315" src="https://www.youtube.com/embed/1poXN3jF3Bw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
         },
         {
-            title: "Ziddi",
-            duration: "5:04",
-            iframeTag: '<iframe width="560" height="315" src="https://www.youtube.com/embed/puKD3nkB1h4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
+            title: 'Nadiyon Paar',
+            image: 'https://img.youtube.com/vi/DKj5m9cSMZs/mqdefault.jpg',
+            iframeTag: '<iframe width="560" height="315" src="https://www.youtube.com/embed/DKj5m9cSMZs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
         },
         {
-            title: "Besabriyaan",
-            duration: "3:29",
-            iframeTag: '<iframe width="560" height="315" src="https://www.youtube.com/embed/UBBHpoW3AKA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
+            title: 'Ranjha',
+            image: 'https://img.youtube.com/vi/V7LwfY5U5WI/mqdefault.jpg',
+            iframeTag: '<iframe width="560" height="315" src="https://www.youtube.com/embed/V7LwfY5U5WI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
         },
         {
-            title: "Aashayein",
-            duration: '4:46',
-            iframeTag: '<iframe width="560" height="315" src="https://www.youtube.com/embed/bmyv0nRkDmc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
+            title: 'I Want You Back',
+            image: 'https://img.youtube.com/vi/IQ9FYNbeBHo/mqdefault.jpg',
+            iframeTag: '<iframe width="560" height="315" src="https://www.youtube.com/embed/IQ9FYNbeBHo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
         },
         {
-            title: "Believer",
-            duration: "3:36",
-            iframeTag: '<iframe width="560" height="315" src="https://www.youtube.com/embed/7wtfhZwyrcc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
+            title: 'Safari',
+            image: 'https://img.youtube.com/vi/lpeuIu-ZYJY/mqdefault.jpg',
+            iframeTag: '<iframe width="560" height="315" src="https://www.youtube.com/embed/lpeuIu-ZYJY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
         },
         {
-            title: "Dusk Till Dawn",
-            duration: '5:38',
-            iframeTag: '<iframe width="560" height="315" src="https://www.youtube.com/embed/tt2k8PGm-TI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
+            title: 'Baarish Lete Aana',
+            image: 'https://img.youtube.com/vi/EFqkHIMbhQg/mqdefault.jpg',
+            iframeTag: '<iframe width="560" height="315" src="https://www.youtube.com/embed/EFqkHIMbhQg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
         },
         {
-            title: "Unstoppable",
-            duration: '3:38',
-            iframeTag: '<iframe width="560" height="315" src="https://www.youtube.com/embed/1Pg1RguhqxY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
+            title: 'Mehrama',
+            image: 'https://img.youtube.com/vi/HYUpNJJELeE/mqdefault.jpg',
+            iframeTag: '<iframe width="560" height="315" src="https://www.youtube.com/embed/HYUpNJJELeE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
         },
         {
-            title: "Let Me Down Slowly",
-            duration: '2:27',
-            iframeTag: '<iframe width="560" height="315" src="https://www.youtube.com/embed/50VNCymT-Cs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
+            title: 'Shayad',
+            image: 'https://img.youtube.com/vi/MJyKN-8UncM/mqdefault.jpg',
+            iframeTag: '<iframe width="560" height="315" src="https://www.youtube.com/embed/MJyKN-8UncM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
         },
         {
-            title: "Friends",
-            duration: "3:51",
-            iframeTag: '<iframe width="560" height="315" src="https://www.youtube.com/embed/jzD_yyEcp0M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
+            title: 'Tera Zikr',
+            image: 'https://img.youtube.com/vi/eK0IIyBlYew/mqdefault.jpg',
+            iframeTag: '<iframe width="560" height="315" src="https://www.youtube.com/embed/eK0IIyBlYew" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
         },
         {
-            title: "Naina Da Kya Kassor",
-            duration: "3:38",
-            iframeTag: '<iframe width="560" height="315" src="https://www.youtube.com/embed/zdXiSlRrgWQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
+            title: 'Asal Mein',
+            image: 'https://img.youtube.com/vi/beqprrnaKFc/mqdefault.jpg',
+            iframeTag: '<iframe width="560" height="315" src="https://www.youtube.com/embed/beqprrnaKFc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
         },
         {
-            title: "Give Me Some Sunshine",
-            duration: '4:14',
-            iframeTag: '<iframe width="560" height="315" src="https://www.youtube.com/embed/lbCRtrrMvSw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
+            title: 'Rabba Mehar Kari',
+            image: 'https://img.youtube.com/vi/7zEx0AJguSM/mqdefault.jpg',
+            iframeTag: '<iframe width="560" height="315" src="https://www.youtube.com/embed/7zEx0AJguSM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
         },
         {
-            title: "Sau Aasmaan",
-            duration: '3:51',
-            iframeTag: '<iframe width="560" height="315" src="https://www.youtube.com/embed/mpjNh-uGBY4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
+            title: 'Ek Tarfa',
+            image: 'https://img.youtube.com/vi/fIip0BH6z7I/mqdefault.jpg',
+            iframeTag: '<iframe width="560" height="315" src="https://www.youtube.com/embed/fIip0BH6z7I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
+        },
+        {
+            title: 'Tera Ghata',
+            image: 'https://img.youtube.com/vi/0KNk-Joi-NM/mqdefault.jpg',
+            iframeTag: '<iframe width="560" height="315" src="https://www.youtube.com/embed/0KNk-Joi-NM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
+        },
+        {
+            title: 'Kya Baat Ay',
+            image: 'https://img.youtube.com/vi/G0Hx6uN2AJE/mqdefault.jpg',
+            iframeTag: '<iframe width="560" height="315" src="https://www.youtube.com/embed/G0Hx6uN2AJE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
+        },
+        {
+            title: 'NAAH',
+            image: 'https://img.youtube.com/vi/8qs2dZO6wcc/mqdefault.jpg',
+            iframeTag: '<iframe width="560" height="315" src="https://www.youtube.com/embed/8qs2dZO6wcc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
+        },
+        {
+            title: 'Daru Badnaam',
+            image: 'https://img.youtube.com/vi/bzW9fmwcmG4/mqdefault.jpg',
+            iframeTag: '<iframe width="560" height="315" src="https://www.youtube.com/embed/bzW9fmwcmG4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
+        },
+        {
+            title: 'Raataan Lambiyan',
+            image: 'https://img.youtube.com/vi/gvyUuxdRdR4/mqdefault.jpg',
+            iframeTag: '<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/gvyUuxdRdR4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
+        },
+        {
+            title: 'Waalian',
+            image: 'https://img.youtube.com/vi/pD4QTNbMwbc/mqdefault.jpg',
+            iframeTag: '<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/pD4QTNbMwbc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
+        },
+        {
+            title: 'Chand Sifarish',
+            image: 'https://img.youtube.com/vi/zWEOx7TSM6I/mqdefault.jpg',
+            iframeTag: '<iframe width="560" height="315" src="https://www.youtube.com/embed/zWEOx7TSM6I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
+        },
+        {
+            title: 'Bewajah',
+            image: 'https://img.youtube.com/vi/gBvwiYnzlhw/mqdefault.jpg',
+            iframeTag: '<iframe width="560" height="315" src="https://www.youtube.com/embed/gBvwiYnzlhw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
+        },
+        {
+            title: 'Gulabi Aankhen',
+            image: 'https://img.youtube.com/vi/hgi2MYAFgE8/mqdefault.jpg',
+            iframeTag: '<iframe width="560" height="315" src="https://www.youtube.com/embed/hgi2MYAFgE8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
+        },
+        {
+            title: 'Temporary Pyar',
+            image: 'https://img.youtube.com/vi/2lfETGiIDf8/mqdefault.jpg',
+            iframeTag: '<iframe width="560" height="315" src="https://www.youtube.com/embed/2lfETGiIDf8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
+        },
+        {
+            title: 'Ae Dil Hai Mushkil',
+            image: 'https://img.youtube.com/vi/vUCM_0evdQY/mqdefault.jpg',
+            iframeTag: '<iframe width="560" height="315" src="https://www.youtube.com/embed/vUCM_0evdQY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
+        },
+        {
+            title: 'Teri Aadat',
+            image: 'https://img.youtube.com/vi/U41-rSXvrV0/mqdefault.jpg',
+            iframeTag: '<iframe width="560" height="315" src="https://www.youtube.com/embed/U41-rSXvrV0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
         }
-
     ],
     webseries: [
         [{
@@ -407,6 +467,57 @@ function openMovieModal(id) {
 
 function delMovieModal() {
     var parent = document.querySelector('.movie-section');
+    parent.removeChild(parent.childNodes[5]);    
+}
+
+// Songs Section
+var songBox = document.querySelector(".song-box");
+const totalSongs = data.songs.length;
+for (var i = 0; i < totalSongs; i++) {
+    var songCard = document.createElement("div");
+    if (i !== totalSongs - 1) {
+        songCard.style.marginRight = "10px";
+    }
+    songCard.classList.add("song-card");
+    songCard.style.backgroundImage = "url(" + data.songs[i].image + ")";
+    var watchBtn = document.createElement("button");
+    watchBtn.innerHTML = '<i class="fa fa-play"></i> Watch Now';
+    watchBtn.classList.add("watch-btn");
+    watchBtn.setAttribute('id', i);
+    watchBtn.setAttribute('data-toggle', 'modal');
+    watchBtn.setAttribute('data-target', '#myModal');
+    watchBtn.setAttribute('onclick', 'openSongModal(' + i + ')');
+    songCard.appendChild(watchBtn);
+    songBox.appendChild(songCard);
+}
+
+function openSongModal(id) {
+    var index = parseInt(id);
+    var main = document.querySelector(".songs-section");
+    var newDiv = document.createElement('div');
+    newDiv.classList.add("player");
+    newDiv.innerHTML =  '<div class="modal fade" id="myModal" role="dialog">' + 
+                            '<div class="modal-dialog">' +
+                                '<div class="modal-content">' +
+                                    '<div class="modal-header">' +
+                                        '<button type="button" class="close" data-dismiss="modal">&times;</button>' + 
+                                        '<h4 class="modal-title">' + data.songs[index].title + '</h4>' + 
+                                    '</div>' + 
+                                    '<div class="modal-body">' + 
+                                        data.songs[index].iframeTag + 
+                                    '</div>' + 
+                                    '<div class="modal-footer">' +
+                                        '<button type="button" class="btn btn-default delMod" data-dismiss="modal">Close</button>' +
+                                    '</div>' +
+                                '</div>' + 
+                            '</div>' + 
+                        '</div>';
+    main.appendChild(newDiv);
+    document.querySelector('.close').onclick = delSongModal;
+    document.querySelector('.delMod').onclick = delSongModal;
+}
+
+function delSongModal() {
+    var parent = document.querySelector('.songs-section');
     parent.removeChild(parent.childNodes[5]);
-    
 }
