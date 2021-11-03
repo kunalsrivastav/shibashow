@@ -4,6 +4,13 @@
     box-sizing: border-box;
 }
 
+.whats-new h1{
+    color: white;
+    font-size: 40px;
+    margin-top: 75px;
+    padding: 0px 60px;
+}
+
 .slider{
     position: relative;
     width: 92vw;
@@ -11,6 +18,7 @@
     margin: auto;
     overflow: hidden;
     border-radius: 20px;
+    margin-top: 20px;
 }
 
 .slider .slide{
@@ -41,19 +49,19 @@
     height: auto;
     margin-left: 10%;
     margin-top: 10%;
-    padding: 20px;
+    padding: 10px;
     border-radius: 20px;
     box-shadow: 0 5px 25px rgb(1 1 1/5%);
 }
 
-.content h1{
-    padding: 15px 10px;
+.slider .slide .content h1{
+    padding: 0px 5px;
     font-size: 40px;
     font-weight: 800;
 }
 
-.content p{
-    padding: 5px 10px;
+.slider .content .content p{
+    padding: 0px 5px;
     line-height: 1.5;
     font-size: 22px;
 }
@@ -111,7 +119,8 @@
     .navigation{
         height: 500px;
     }
-    .content h1{
+
+    .slider .slide .content h1{
         font-size: 36;
         font-weight: 700;
     }
@@ -122,16 +131,16 @@
         height: 420px;
     }
 
-    .content h1{
+    .slider .slide .content h1{
         font-size: 30px;
         padding: 5px 3px;
     }
-    .content p{
+
+    .slider .slide .content p{
         padding: 1px 1px;
         line-height: 1;
         font-size: 12px;
     }
-
 }
 
 @media (max-width: 550px){

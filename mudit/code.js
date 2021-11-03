@@ -90,13 +90,12 @@ const movies = [{
 }
 ]
 
-
 // PLAY MOVIES IN A MODAL
 
 
 function openMovieModal(id) {
     var index = parseInt(id);
-    var main = document.querySelector('body');
+    var main = document.querySelector('.movie-section');
     var newDiv = document.createElement('div');
     newDiv.classList.add("player");
     newDiv.innerHTML =  '<div class="modal fade" id="myModal" role="dialog">' + 
@@ -121,9 +120,8 @@ function openMovieModal(id) {
 }
 
 function delMovieModal() {
-    var parent = document.querySelector('body');
-    console.log(parent);
-    parent.removeChild(parent.childNodes[2]);    
+    var parent = document.querySelector('.movie-section');
+    parent.removeChild(parent.childNodes[5]);    
 }
 
 
@@ -213,7 +211,7 @@ function repeater() {
         if (slidesNumber > numberOfSlides - 1)
             slidesNumber = 0;
         slides[slidesNumber].classList.add('active');
-    }, 4000);
+    }, 3500);
 }
 
 //AUTOPLAY ON HOVER
