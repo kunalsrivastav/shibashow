@@ -228,7 +228,8 @@ const data = {
         }
     ],
     webseries: [
-        [{
+        [
+            {
                 seriesName: "Roomies | Season 2",
                 totalEpisodes: 5
             },
@@ -258,7 +259,8 @@ const data = {
                 iframeTag: '<iframe width="560" height="315" src="https://www.youtube.com/embed/WbMlxHTgDp4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
             }
         ],
-        [{
+        [
+            {
                 seriesName: "Dating In Office",
                 totalEpisodes: 3
             },
@@ -277,11 +279,13 @@ const data = {
                 duration: '11:50',
                 iframeTag: '<iframe width="560" height="315" src="https://www.youtube.com/embed/_Iv_WUkNW7g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
             }
-        ]
-
-        [{
+        ],
+        [
+            {
                 seriesName: "Aspirants",
-                totalEpisodes: 5
+                totalEpisodes: 5,
+                image: 'https://img.youtube.com/vi/ViOutJ0kuJY/mqdefault.jpg',
+                iframeTagTrailer: '<iframe width="560" height="315" src="https://www.youtube.com/embed/ViOutJ0kuJY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
             },
             {
                 title: "UPSC - Optional Me Kya Hai?",
@@ -296,7 +300,7 @@ const data = {
             {
                 title: "Positive Approach Rakh Yaar",
                 duration: "45:36",
-                iframeTag: '<iframe width="560" height="315" src="https://www.youtube.com/embed/WeWXC_ivl5s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
+                iframeTag : '<iframe width="560" height="315" src="https://www.youtube.com/embed/WeWXC_ivl5s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
             },
             {
                 title: "Plan B Kya Hai?",
@@ -309,9 +313,12 @@ const data = {
                 iframeTag: '<iframe width="560" height="315" src="https://www.youtube.com/embed/5H8xQF0PwvA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
             }
         ],
-        [{
+        [
+            {
                 seriesName: "Kota Factory",
-                totalEpisodes: 5
+                totalEpisodes: 5,
+                image: 'https://img.youtube.com/vi/pNZQ6msbOvM/mqdefault.jpg',
+                iframeTagTrailer: '<iframe width="560" height="315" src="https://www.youtube.com/embed/pNZQ6msbOvM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
             },
             {
                 title: "Inventory",
@@ -339,9 +346,12 @@ const data = {
                 iframeTag: '<iframe width="560" height="315" src="https://www.youtube.com/embed/923ks1pc0LQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
             }
         ],
-        [{
+        [
+            {
                 seriesName: "The Age of A.I.",
-                totalEpisodes: 8
+                totalEpisodes: 8,
+                image: 'https://img.youtube.com/vi/5IvQ3fYKnfM/mqdefault.jpg',
+                iframeTagTrailer: '<iframe width="560" height="315" src="https://www.youtube.com/embed/5IvQ3fYKnfM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
             },
             {
                 title: "How Far is Too Far?",
@@ -384,12 +394,15 @@ const data = {
                 iframeTag: '<iframe width="560" height="315" src="https://www.youtube.com/embed/VwtC_4t2g5M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
             }
         ],
-        [{
+        [
+            {
                 seriesName: "Cubicles",
-                totalEpisodes: 5
+                totalEpisodes: 5,
+                image: 'https://img.youtube.com/vi/y5NutvTDpHQ/mqdefault.jpg',
+                iframeTagTrailer: '<iframe width="560" height="315" src="https://www.youtube.com/embed/y5NutvTDpHQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
             },
             {
-                title: "Access Denied",
+                title: "Access Denied", 
                 duration: "25:33",
                 iframeTag: '<iframe width="560" height="315" src="https://www.youtube.com/embed/JbBsqmKclXE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
             },
@@ -520,4 +533,91 @@ function openSongModal(id) {
 function delSongModal() {
     var parent = document.querySelector('.songs-section');
     parent.removeChild(parent.childNodes[5]);
+}
+
+// Web Series Section
+var webSeriesBox = document.querySelector(".webseries-box");
+const totalWebSeries = data.webseries.length;
+for (var i = 0; i < totalWebSeries; i++) {
+    var webSeriesCard = document.createElement("div");
+    if (i !== totalWebSeries - 1) {
+        webSeriesCard.style.marginRight = "10px";
+    }
+    webSeriesCard.classList.add("webseries-card");
+    webSeriesCard.style.backgroundImage = "url(" + data.webseries[i][0].image + ")";
+    var watchBtn = document.createElement("button");
+    watchBtn.innerHTML = '<i class="fa fa-play"></i> Watch Now';
+    watchBtn.classList.add("watch-btn");
+    watchBtn.setAttribute('id', i);
+    watchBtn.setAttribute('data-toggle', 'modal');
+    watchBtn.setAttribute('data-target', '#myModal');
+    watchBtn.setAttribute('onclick', 'openWebSeriesModal(' + i + ')');
+    webSeriesCard.appendChild(watchBtn);
+    webSeriesBox.appendChild(webSeriesCard);
+}
+
+function openWebSeriesModal(id) {
+    var index = parseInt(id);
+    var main = document.querySelector(".webseries-section");
+    var newDiv = document.createElement('div');
+    newDiv.classList.add("episodelist");
+    newDiv.innerHTML =   '<div class="modal fade" id="myModal" role="dialog">' + 
+                            '<div class="modal-dialog">' +
+                                '<div class="modal-content">' +
+                                    '<div class="modal-header">' +
+                                        '<button type="button" class="close" data-dismiss="modal">&times;</button>' + 
+                                        '<h4 class="modal-title">' + data.webseries[index][0].seriesName + '</h4>' + 
+                                    '</div>' + 
+                                    '<div class="modal-body">' + 
+                                        returnList(index).innerHTML + 
+                                    '</div>' + 
+                                    '<div class="modal-footer">' +
+                                        '<button type="button" class="btn btn-default delMod" data-dismiss="modal">Close</button>' +
+                                    '</div>' +
+                                '</div>' + 
+                            '</div>' + 
+                        '</div>';
+    main.appendChild(newDiv);
+    document.querySelector('.close').onclick = delDisplayListModal;
+    document.querySelector('.delMod').onclick = delDisplayListModal;
+}
+
+function delDisplayListModal() {
+    var web = document.querySelector(".webseries-section");
+    web.removeChild(web.childNodes[5]);
+}
+
+function returnList(index) {
+    var totalEpisodes = data.webseries[index][0].totalEpisodes;
+    var displayList = document.createElement("div");
+    for (var episodes = 0; episodes <= totalEpisodes; episodes++) {
+        var episodeBtn = document.createElement("button");
+        episodeBtn.setAttribute('id', index + '' + episodes);
+        episodeBtn.setAttribute('class', 'episode-button');
+        if (episodes === 0) {
+            episodeBtn.innerText = "Trailer: " + data.webseries[index][episodes].seriesName;
+        } else {
+            episodeBtn.innerText = "Episode " + episodes + ": " + data.webseries[index][episodes].title;
+        }
+        episodeBtn.setAttribute('onclick', 'openEpisodeModal(' + index + ", " + episodes + "" + ')')
+        displayList.appendChild(episodeBtn);
+    }
+    return displayList;
+}
+
+function openEpisodeModal(index, episode) {
+    var index = parseInt(index);
+    var episode = parseInt(episode);
+    var modal = document.querySelector(".modal-body");
+    if (modal.childNodes[modal.children.length - 1].classList.value === 'player') {
+        modal.removeChild(modal.childNodes[modal.children.length - 1]);
+    }
+    var player = document.createElement('div');
+    player.setAttribute("class", 'player');
+    if (episode === 0) {
+        player.innerHTML = data.webseries[index][episode].iframeTagTrailer;
+    } else {
+        player.innerHTML = data.webseries[index][episode].iframeTag;
+    }
+    modal.appendChild(player);
 }
