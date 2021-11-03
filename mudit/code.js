@@ -1,26 +1,26 @@
 const movies = [{
     title: "Khiladi 786",
-    image: 'https://img.youtube.com/vi/yP80amXMnEc/mqdefault.jpg',
+    image: 'https://media2.bollywoodhungama.in/wp-content/uploads/2016/03/59162871.jpg',
     iframeTag: '<iframe width="560" height="315" src="https://www.youtube.com/embed/yP80amXMnEc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
 },
 {
     title: "2 States",
-    image: 'https://img1.hotstarext.com/image/upload/f_auto,t_web_m_1x/sources/r1/cms/prod/old_images/MOVIE/4502/1000034502/1000034502-h',
+    image: 'https://wallpapercave.com/wp/wp8054489.jpg',
     iframeTag: '<iframe width="560" height="315" src="https://www.youtube.com/embed/neB7WugMKT4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
 },
 {
     title: "Welcome Back",
-    image: 'https://img.youtube.com/vi/GhZufxyGO-E/mqdefault.jpg',
+    image: 'https://i.ytimg.com/vi/tiU3ZrydhHU/maxresdefault.jpg',
     iframeTag: '<iframe width="560" height="315" src="https://www.youtube.com/embed/GhZufxyGO-E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
 },
 {
     title: "Barfi",
-    image: 'https://img.youtube.com/vi/TcDmarWK68c/mqdefault.jpg',
+    image: 'https://lh3.googleusercontent.com/proxy/QtSXqodLwGgX-f9T_CJobb7K__225rtM6dXexIorIAlK-OU4H4rEU7RNqRmmCMY6xZKM0mWGLFpKIE7_wCT12Z49zPc_JpYZO3pYNgus1R1N67I2xFi-MC1bqcrTqwKAP0riS9aw4Q16ExU=w1200-h630-p-k-no-nu',
     iframeTag: '<iframe width="560" height="315" src="https://www.youtube.com/embed/TcDmarWK68c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
 },
 {
     title: "Jolly LLB 2",
-    image: 'https://img.youtube.com/vi/uhiWdRBwSQo/mqdefault.jpg',
+    image: 'https://i.ytimg.com/vi/Ae0gPm1wW8s/maxresdefault.jpg',
     iframeTag: '<iframe width="560" height="315" src="https://www.youtube.com/embed/uhiWdRBwSQo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
 },
 {
@@ -30,27 +30,27 @@ const movies = [{
 },
 {
     title: "Entertainment",
-    image: 'https://img.youtube.com/vi/smLNCbYNQP4/mqdefault.jpg',
+    image: 'https://i.ytimg.com/vi/xs61DNG9DF0/maxresdefault.jpg',
     iframeTag: '<iframe width="560" height="315" src="https://www.youtube.com/embed/smLNCbYNQP4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
 },
 {
     title: "Bhootnath",
-    image: 'https://img.youtube.com/vi/nICDrYQEiVg/mqdefault.jpg',
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6Os4aK3c99QxA0gRc96Qk0IXSENsa35em4g&usqp=CAU',
     iframeTag: '<<iframe width="560" height="315" src="https://www.youtube.com/embed/nICDrYQEiVg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
 },
 {
     title: "Kaabil",
-    image: 'https://img.youtube.com/vi/MrU7NK8U6JU/mqdefault.jpg',
+    image: 'https://img1.hotstarext.com/image/upload/f_auto,t_web_hs_2_5x/sources/r1/cms/prod/517/260517-h',
     iframeTag: '<iframe width="560" height="315" src="https://www.youtube.com/embed/MrU7NK8U6JU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
 },
 {
     title: 'Khoobsurat',
-    image: 'https://img.youtube.com/vi/Z-OzON9uiN8/mqdefault.jpg',
+    image: 'https://i.ytimg.com/vi/Z-OzON9uiN8/maxresdefault.jpg',
     iframeTag: '<iframe width="560" height="315" src="https://www.youtube.com/embed/Z-OzON9uiN8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
 },
 {
     title: 'Jagga Jasoos',
-    image: 'https://img.youtube.com/vi/ss7Q98Xd5-0/mqdefault.jpg',
+    image: 'https://i.pinimg.com/originals/03/2e/1d/032e1d49f8cc814c381483cf2c59a28a.jpg',
     iframeTag: '<iframe width="560" height="315" src="https://www.youtube.com/embed/ss7Q98Xd5-0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
 },
 {
@@ -60,7 +60,7 @@ const movies = [{
 },
 {
     title: 'Humshakal',
-    image: 'https://img.youtube.com/vi/KcxTtbZRrxs/mqdefault.jpg',
+    image: 'https://im.rediff.com/movies/2014/jun/20humshakals1.jpg',
     iframeTag: '<iframe width="560" height="315" src="https://www.youtube.com/embed/KcxTtbZRrxs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
 },
 {

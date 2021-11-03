@@ -49,6 +49,7 @@
 .content h1{
     padding: 15px 10px;
     font-size: 40px;
+    font-weight: 800;
 }
 
 .content p{
@@ -110,11 +111,25 @@
     .navigation{
         height: 500px;
     }
+    .content h1{
+        font-size: 36;
+        font-weight: 700;
+    }
 }
 
 @media (max-width: 720px) {
     .slider .navigation{
         height: 420px;
+    }
+
+    .content h1{
+        font-size: 30px;
+        padding: 5px 3px;
+    }
+    .content p{
+        padding: 1px 1px;
+        line-height: 1;
+        font-size: 12px;
     }
 
 }
