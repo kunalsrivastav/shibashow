@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" />
+    <link rel="stylesheet" href="../css/index.css" />
+    <script src = "https://smtpjs.com/v3/smtp.js"></script>
+    <link rel="shortcut icon" href="favicon.ico" />
+    <title>Shiba Contact</title>
+</head>
+
+<body>
+    <div class="homepage">
+
+        <!--    HEADER SECTION    -->
+
+        <div class="header">
+            <input type="checkbox" id="check" />
+            <label for="check" class="show-btn">
+                <i class="fa fa-bars"></i>
+            </label>
+            <label for="check" class="hide-btn">
+                <i class="fa fa-times"></i>
+            </label>
+            <div class="logo">
+                <a href="./index.html"><img src="../images/shiba-show-logo.png" alt="" /></a>
+            </div>
+            <ul class="menu">
+                <li>
+                    <a href="#movies"><i class="fa fa-video-camera"></i>Movies</a>
+                </li>
+                <li>
+                    <a href="#songs"><i class="fa fa-music"></i>Songs</a>
+                </li>
+                <li>
+                    <a href="#webseries"><i class="fa fa-film"></i>Web-Series</a>
+                </li>
+            </ul>
+            <div class="searchbar">
+                <a title="Seach Movies & More" href="./pages/search.html"><i class="fa fa-search"></i></a>
+            </div>
+        </div>
+
+
+        <!--    HEADER SECTION COMPLETED   -->
+
+        <!--    MAIN CONTENT     -->
+        
+        <section class="contact">
+            <div class="content">
+                <h1>Contact us</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto voluptates commodi aliquam sequi enim
+                    deleniti numquam autem quod. Laboriosam vel at soluta facilis sunt fugiat sapiente reprehenderit</p>
+            </div>
+            <div class="container">
+                <div class="contact-info">
+                    <div class="box">
+                        <div class="icon"><i class="fas fa-map-marker-alt"></i></div>
+                        <div class="text">
+                            <h2>Address</h2>
+                            <p>H BLOCK HOSTEL, GLA UNIVERSITY</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="icon"><i class="fas fa-phone-alt"></i></div>
+                        <div class="text">
+                            <h2>Phone</h2>
+                            <p>+9876543219</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="icon"><i class="far fa-envelope"></i></div>
+                        <div class="text">
+                            <h2>Email</h2>
+                            <p>shibaconnect24x7@gmail.com</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form action="" method="POST">
+                        <h2>Get In Touch</h2>
+                        <div class="input-box">
+                            <input type="text" name="" class="name" required>
+                            <span>Full Name</span>
+                        </div>
+                        <div class="input-box">
+                            <input type="email" name="" class="email" required>
+                            <span>Email</span>
+                        </div>
+                        <div class="input-box">
+                            <textarea class="message" required></textarea>
+                            <span>Your message</span>
+                        </div>
+                        <div class="input-box">
+                            <input type="button" value="Submit" onclick="handleSubmit()">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <!--    MAIN CONTENT CLOSED   -->
+
+        <!--    FOOTER SECTION    -->
+
+        <footer>
+            <div class="footer">
+                <div class="social">
+                    <ul class="social-icons">
+                        <li>
+                            <a href="#twitter"><i class="fab fa-twitter"></i></a>
+                        </li>
+                        <li>
+                            <a href="#facebook"><i class="fab fa-facebook"></i></a>
+                        </li>
+                        <li>
+                            <a href="#instagram"><i class="fab fa-instagram"></i></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <ul class="footer-menu">
+                        <li><a href="../index.html">Home</a></li>
+                        <li><a href="./about.html">About</a></li>
+                        <li><a href="#terms">Terms</a></li>
+                        <li><a href="#privacy">Privacy Policy</a></li>
+                        <li><a href="#faq">FAQ</a></li>
+                        <li><a href="#feeedback">FeedBack</a></li>
+                    </ul>
+                </div>
+
+                <p>
+                    Copyright &copy; 2021. All Rights Reserved by Shiba Show.
+                </p>
+            </div>
+        </footer>
+
+        <!--    FOOTRER SECTION   -->
+
+        <script>
+            function handleSubmit() {
+                console.log("function called");
+                sendMailToClient();
+            }
+    
+            function sendMailToClient() {
+                var name = document.querySelector(".name").value;
+                var email = document.querySelector(".email").value;
+                var message = document.querySelector(".message").value;            
+                Email.send({
+                    SecureToken : "7843f900-6b48-463a-8bfd-35a702fab679",
+                    To: email,
+                    From: "shibaconnect24x7@gmail.com",
+                    Subject: "Greetings from Shiba Show",
+                    Body: "Thank you for connecting with us. Our team will be soon contacting you."
+                }).then(
+                    message => alert("Thank you connecting with us. Our team will contact you soon")
+                );
+
+                document.querySelector(".name").value = "";
+                document.querySelector(".email").value = "";
+                document.querySelector(".message").value = "";
+            }
+        </script>
+</body>
+
+</html>
