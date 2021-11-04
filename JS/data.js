@@ -725,3 +725,185 @@ slider.addEventListener('mouseout', () => {
 })
 
 repeater();
+
+
+
+
+
+// Search Page
+function search() {
+    var searchBox = document.getElementById("searchQuery");
+    var searchData = searchBox.value.trim().toLowerCase();
+    searchBox.value = "";
+    if (searchData.length == 0) {
+        return;
+    }
+    var searchResults = document.querySelector(".search-result");
+    searchResults.innerHTML = "";
+    var found = false;
+    // Searching Movies
+    for (var i = 0; i < data.movies.length; i++) {
+        var movieName = data.movies[i].title.toLowerCase();
+        if (movieName.includes(searchData)) {
+            found = true;
+            var searchCard = document.createElement("div");
+            searchCard.setAttribute("class", "search-card");
+            searchCard.style.backgroundImage = "url(" + data.movies[i].image + ")";
+            var watchBtn = document.createElement("button");
+            watchBtn.innerHTML = '<i class="fa fa-play"></i> Watch Now';
+            watchBtn.classList.add("watch-btn");
+            watchBtn.setAttribute('id', i);
+            watchBtn.setAttribute('data-toggle', 'modal');
+            watchBtn.setAttribute('data-target', '#myModal');
+            watchBtn.setAttribute('onclick', 'openSearchMovieModal(' + i + ')');
+            searchCard.appendChild(watchBtn);
+            searchResults.appendChild(searchCard);
+        }
+    }
+    // Searching Songs
+    for (var i = 0; i < data.songs.length; i++) {
+        var songName = data.songs[i].title.toLowerCase();
+        if (songName.includes(searchData)) {
+            found = true;
+            var searchCard = document.createElement("div");
+            searchCard.setAttribute("class", "search-card");
+            searchCard.style.backgroundImage = "url(" + data.songs[i].image + ")";
+            var watchBtn = document.createElement("button");
+            watchBtn.innerHTML = '<i class="fa fa-play"></i> Watch Now';
+            watchBtn.classList.add("watch-btn");
+            watchBtn.setAttribute('id', i);
+            watchBtn.setAttribute('data-toggle', 'modal');
+            watchBtn.setAttribute('data-target', '#myModal');
+            watchBtn.setAttribute('onclick', 'openSearchSongModal(' + i + ')');
+            searchCard.appendChild(watchBtn);
+            searchResults.appendChild(searchCard);
+        }
+    }
+    // Searching Webseries
+    for (var index = 0; index < data.webseries.length; index++) {
+        for (var j = 0; j < data.webseries[index].length; j++) {
+            var title = "";
+            if (j === 0) {
+                title = data.webseries[index][j].seriesName.toLowerCase();
+            } else {
+                title = data.webseries[index][j].title.toLowerCase();
+            }
+            if (title.includes(searchData)) {
+                found = true;
+                var searchCard = document.createElement("div");
+                searchCard.setAttribute("class", "search-card");
+                searchCard.style.backgroundImage = "url(" + data.webseries[index][j].image + ")";
+                var watchBtn = document.createElement("button");
+                watchBtn.innerHTML = '<i class="fa fa-play"></i> Watch Now';
+                watchBtn.classList.add("watch-btn");
+                watchBtn.setAttribute('id', i);
+                watchBtn.setAttribute('data-toggle', 'modal');
+                watchBtn.setAttribute('data-target', '#myModal');
+                watchBtn.setAttribute('onclick', 'openSearchSeriesModal(' + index + ", " + j + ')');
+                searchCard.appendChild(watchBtn);
+                searchResults.appendChild(searchCard);
+            }
+        }
+    }
+    if (!found) {
+        searchResults.innerHTML = '<h1>Sorry, No Results Found.</h1>';
+    }
+}
+
+
+function openSearchMovieModal(id) {
+    var index = parseInt(id);
+    var main = document.querySelector(".search-result");
+    var newDiv = document.createElement('div');
+    newDiv.classList.add("player");
+    newDiv.innerHTML =  '<div class="modal fade" id="myModal" role="dialog">' + 
+                            '<div class="modal-dialog">' +
+                                '<div class="modal-content">' +
+                                    '<div class="modal-header">' +
+                                        '<button type="button" class="close" data-dismiss="modal">&times;</button>' + 
+                                        '<h4 class="modal-title">' + data.movies[index].title + '</h4>' + 
+                                    '</div>' + 
+                                    '<div class="modal-body">' + 
+                                        data.movies[index].iframeTag + 
+                                    '</div>' + 
+                                    '<div class="modal-footer">' +
+                                        '<button type="button" class="btn btn-default delMod" data-dismiss="modal">Close</button>' +
+                                    '</div>' +
+                                '</div>' + 
+                            '</div>' + 
+                        '</div>';
+    main.appendChild(newDiv);
+    document.querySelector('.close').onclick = delSearchMovieModal;
+    document.querySelector('.delMod').onclick = delSearchMovieModal;
+}
+
+function delSearchMovieModal() {
+    var parent = document.querySelector('.search-result');
+    parent.removeChild(parent.childNodes[parent.childNodes.length - 1]);    
+}
+
+function openSearchSongModal(id) {
+    var index = parseInt(id);
+    var main = document.querySelector(".search-result");
+    var newDiv = document.createElement('div');
+    newDiv.classList.add("player");
+    newDiv.innerHTML =  '<div class="modal fade" id="myModal" role="dialog">' + 
+                            '<div class="modal-dialog">' +
+                                '<div class="modal-content">' +
+                                    '<div class="modal-header">' +
+                                        '<button type="button" class="close" data-dismiss="modal">&times;</button>' + 
+                                        '<h4 class="modal-title">' + data.songs[index].title + '</h4>' + 
+                                    '</div>' + 
+                                    '<div class="modal-body">' + 
+                                        data.songs[index].iframeTag + 
+                                    '</div>' + 
+                                    '<div class="modal-footer">' +
+                                        '<button type="button" class="btn btn-default delMod" data-dismiss="modal">Close</button>' +
+                                    '</div>' +
+                                '</div>' + 
+                            '</div>' + 
+                        '</div>';
+    main.appendChild(newDiv);
+    document.querySelector('.close').onclick = delSearchSongModal;
+    document.querySelector('.delMod').onclick = delSearchSongModal;
+}
+
+function delSearchSongModal() {
+    var parent = document.querySelector('.search-result');
+    parent.removeChild(parent.childNodes[parent.childNodes.length - 1]);    
+}
+
+function openSearchSeriesModal(index, j) {
+    var index = parseInt(index);
+    var j = parseInt(j);
+    console.log(index+  " " + j);
+    var main = document.querySelector(".search-result");
+    var newDiv = document.createElement('div');
+    newDiv.classList.add("player");
+    newDiv.innerHTML =  '<div class="modal fade" id="myModal" role="dialog">' + 
+                            '<div class="modal-dialog">' +
+                                '<div class="modal-content">' +
+                                    '<div class="modal-header">' +
+                                        '<button type="button" class="close" data-dismiss="modal">&times;</button>' + 
+                                        '<h4 class="modal-title">' + 
+                                            (j === 0 ? data.webseries[index][j].seriesName : data.webseries[index][j].title) + 
+                                        '</h4>' + 
+                                    '</div>' + 
+                                    '<div class="modal-body">' + 
+                                        (j === 0 ? data.webseries[index][j].iframeTagTrailer : data.webseries[index][j].iframeTag) + 
+                                    '</div>' + 
+                                    '<div class="modal-footer">' +
+                                        '<button type="button" class="btn btn-default delMod" data-dismiss="modal">Close</button>' +
+                                    '</div>' +
+                                '</div>' + 
+                            '</div>' + 
+                        '</div>';
+    main.appendChild(newDiv);
+    document.querySelector('.close').onclick = delSearchSeriesModal;
+    document.querySelector('.delMod').onclick = delSearchSeriesModal;
+}
+
+function delSearchSeriesModal() {
+    var parent = document.querySelector('.search-result');
+    parent.removeChild(parent.childNodes[parent.childNodes.length - 1]);    
+}
