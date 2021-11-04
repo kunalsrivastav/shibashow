@@ -24,7 +24,7 @@ html {
     position: fixed;
     top: 0;
     background-color: #0c111b;
-    z-index: 3;
+    z-index: 100;
     border-bottom: 2px solid #080b12;
 }
 
@@ -81,42 +81,21 @@ html {
 
 .searchbar {
     float: right;
-    font-size: 20px;
-    margin: 18px 20px 0 0;
-    border-bottom: 1px solid white;
-    padding: 0 5px 5px 5px;
-    min-width: 290px;
+    font-size: 30px;
+    line-height: 75px;
+    margin-right: 20px;
 }
 
-.search-url-bar,
-.search-btn {
-    display: inline-block;
-}
-
-.search-url-bar {
-    margin-right: 8px;
-}
-
-.search-url-bar input[type="search"] {
-    background-color: transparent;
-    border-top-style: none;
-    border-bottom-style: none;
-    border-left-style: none;
-    border-right-style: none;
-    outline: none;
-    color: white;
-}
-
-.search-btn a {
+.searchbar a {
     text-decoration: none;
     display: block;
 }
 
-.search-btn a i {
+.searchbar a i {
     color: lightgray;
 }
 
-.search-btn a i:hover {
+.searchbar a i:hover {
     color: white;
 }
 
@@ -125,9 +104,8 @@ html {
 
 .whats-new h1{
     color: white;
-    font-size: 40px;
-    margin-top: 75px;
-    padding: 0px 60px;
+    margin: 75px 10px 10px 10px;
+    padding: 10px 10px 0 10px;
 }
 
 .slider{
@@ -430,6 +408,13 @@ iframe {
     color: white;
 }
 
+.modal-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
 .close,
 .close:hover {
     color: white;
@@ -538,7 +523,7 @@ footer p {
     }
     .menu li {
         display: block;
-        margin: 10px 10px 10px -22px;
+        margin: 10px;
     }
     #check:checked~.menu {
         left: 20px;
@@ -556,11 +541,7 @@ footer p {
         width: 100vw;
     }
     .header {
-        height: 120px;
-    }
-    .searchbar {
-        float: left;
-        margin: 15px 0 10px 20px;
+        min-width: 300px;
     }
     .footer-links {
         display: flex;
