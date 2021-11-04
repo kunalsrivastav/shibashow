@@ -1,138 +1,117 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Shiba Show</title>
-        <link
-            rel="stylesheet"
-            href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
-        />
-        <link
-            rel="stylesheet"
-            href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
-        />
-        <link
-            rel="stylesheet"
-            href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
-        />
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-        <link rel="stylesheet" href="./css/index.css" />
-        <link rel="shortcut icon" href="favicon.ico" />
-    </head>
 
-    <body>
-        <div class="homepage">
-            <div class="header">
-                <input type="checkbox" id="check" />
-                <label for="check" class="show-btn">
-                    <i class="fa fa-bars"></i>
-                </label>
-                <label for="check" class="hide-btn">
-                    <i class="fa fa-times"></i>
-                </label>
-                <div class="logo">
-                    <a href="./index.html"
-                        ><img src="./images/shiba-show-logo.png" alt=""
-                    /></a>
-                </div>
-                <ul class="menu">
-                    <li>
-                        <a href="#movies"
-                            ><i class="fa fa-video-camera"></i>Movies</a
-                        >
-                    </li>
-                    <li>
-                        <a href="#songs"><i class="fa fa-music"></i>Songs</a>
-                    </li>
-                    <li>
-                        <a href="#webseries"
-                            ><i class="fa fa-film"></i>Web-Series</a
-                        >
-                    </li>
-                </ul>
-                <div class="searchbar">
-                    <a title="Seach Movies & More" href="./pages/search.html"
-                        ><i class="fa fa-search"></i
-                    ></a>
-                </div>
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shiba Show</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="./css/index.css" />
+    <link rel="shortcut icon" href="favicon.ico" />
+</head>
+
+<body>
+    <div class="homepage">
+        <div class="header">
+            <input type="checkbox" id="check" />
+            <label for="check" class="show-btn">
+                <i class="fa fa-bars"></i>
+            </label>
+            <label for="check" class="hide-btn">
+                <i class="fa fa-times"></i>
+            </label>
+            <div class="logo">
+                <a href="./index.html"><img src="./images/shiba-show-logo.png" alt="" /></a>
             </div>
-
-            <!-- COROUSEL SECTION -->
-
-            <div class="whats-new">
-                <h1>What's New!</h1>
+            <ul class="menu">
+                <li>
+                    <a href="#movies"><i class="fa fa-video-camera"></i>Movies</a>
+                </li>
+                <li>
+                    <a href="#songs"><i class="fa fa-music"></i>Songs</a>
+                </li>
+                <li>
+                    <a href="#webseries"><i class="fa fa-film"></i>Web-Series</a>
+                </li>
+            </ul>
+            <div class="searchbar">
+                <a title="Seach Movies & More" href="./pages/search.html"><i class="fa fa-search"></i></a>
             </div>
-
-            <div class="slider"></div>
-
-            <!-- CORUSEL SECTIONS ENDS -->
-
-            <!-- MOVIE SECTION -->
-            <div class="movie-section" id="movies">
-                <h1>Movies</h1>
-                <div class="movie-box"></div>
-            </div>
-            <!-- MOVIE SECTION ENDS -->
-
-            <!-- SONG SECTIONS -->
-            <div class="songs-section" id="songs">
-                <h1>Songs</h1>
-                <div class="song-box"></div>
-            </div>
-            <!-- SONG SECTION ENDS -->
-
-            <!-- WEB-SERIES SECTION -->
-            <div class="webseries-section" id="webseries">
-                <h1>Web Series</h1>
-                <div class="webseries-box"></div>
-            </div>
-            <!-- WEB-SERIES SECTION ENDS -->
-
-            <!-- FOOTER SECTION STARTS-->
-
-            <footer>
-                <div class="footer">
-                    <div class="social">
-                        <ul class="social-icons">
-                            <li>
-                                <a href="#twitter"
-                                    ><i class="fab fa-twitter"></i
-                                ></a>
-                            </li>
-                            <li>
-                                <a href="#facebook"
-                                    ><i class="fab fa-facebook"></i
-                                ></a>
-                            </li>
-                            <li>
-                                <a href="#instagram"
-                                    ><i class="fab fa-instagram"></i
-                                ></a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="footer-links">
-                        <ul class="footer-menu">
-                            <li><a href="#top">Home</a></li>
-                            <li><a href="./pages/about.html">About</a></li>
-                            <li><a href="#terms">Terms</a></li>
-                            <li><a href="#privacy">Privacy Policy</a></li>
-                            <li><a href="#faq">FAQ</a></li>
-                            <li><a href="#feeedback">FeedBack</a></li>
-                        </ul>
-                    </div>
-
-                    <p>
-                        Copyright &copy; 2021. All Rights Reserved by Shiba
-                        Show.
-                    </p>
-                </div>
-            </footer>
         </div>
-        <!-- FOOTER SECTION ENDS-->
-        <script src="./JS/data.js"></script>
-    </body>
+
+        <!-- COROUSEL SECTION -->
+
+        <div class="whats-new">
+            <h1>What's New!</h1>
+        </div>
+
+        <div class="slider"></div>
+
+        <!-- CORUSEL SECTIONS ENDS -->
+
+        <!-- MOVIE SECTION -->
+        <div class="movie-section" id="movies">
+            <h1>Movies</h1>
+            <div class="movie-box"></div>
+        </div>
+        <!-- MOVIE SECTION ENDS -->
+
+        <!-- SONG SECTIONS -->
+        <div class="songs-section" id="songs">
+            <h1>Songs</h1>
+            <div class="song-box"></div>
+        </div>
+        <!-- SONG SECTION ENDS -->
+
+        <!-- WEB-SERIES SECTION -->
+        <div class="webseries-section" id="webseries">
+            <h1>Web Series</h1>
+            <div class="webseries-box"></div>
+        </div>
+        <!-- WEB-SERIES SECTION ENDS -->
+
+        <!-- FOOTER SECTION STARTS-->
+
+        <footer>
+            <div class="footer">
+                <div class="social">
+                    <ul class="social-icons">
+                        <li>
+                            <a href="#twitter"><i class="fab fa-twitter"></i></a>
+                        </li>
+                        <li>
+                            <a href="#facebook"><i class="fab fa-facebook"></i></a>
+                        </li>
+                        <li>
+                            <a href="#instagram"><i class="fab fa-instagram"></i></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <ul class="footer-menu">
+                        <li><a href="#top">Home</a></li>
+                        <li><a href="./pages/about.html">About US</a></li>
+                        <li><a href="#terms">Terms</a></li>
+                        <li><a href="#privacy">Privacy Policy</a></li>
+                        <li><a href="#faq">FAQ</a></li>
+                        <li><a href="#feeedback">FeedBack</a></li>
+                    </ul>
+                </div>
+
+                <p>
+                    Copyright &copy; 2021. All Rights Reserved by Shiba
+                    Show.
+                </p>
+            </div>
+        </footer>
+    </div>
+    <!-- FOOTER SECTION ENDS-->
+    <script src="./JS/data.js"></script>
+</body>
+
 </html>
