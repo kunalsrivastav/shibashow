@@ -740,3 +740,25 @@ footer p {
     padding: 20px;
     font-weight: 700;
 }
+
+.faq {
+    margin-top: 75px;
+    color: white;
+}
+
+.faq h1 {
+    padding: 10px;
+}
+
+.faq-description {
+    margin: 10px 10px 5px 10px;
+    border-radius: 12px;
+    border: 1px solid white;
+    padding: 10px;
+    color: white;
+    font-size: 25px;
+}
+
+.faq-description p:nth-child(odd) {
+    color: lightgray;
+}
