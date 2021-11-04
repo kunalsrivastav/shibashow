@@ -231,120 +231,106 @@ const data = {
     webseries: [
         [
             {
-                seriesName: "Roomies | Season 2",
-                totalEpisodes: 5
-            },
-            {
-                title: "Roomies In mafialand | Official Trailer",
-                duration: '1:57',
-                iframeTag: '<iframe width="560" height="315" src="https://www.youtube.com/embed/C8RKIBQoEng" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
-            },
-            {
-                title: "Roomies Vs Police",
-                duration: "17:33",
-                iframeTag: '<iframe width="560" height="315" src="https://www.youtube.com/embed/X79turRdcM4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
-            },
-            {
-                title: "Roomies Vs Love",
-                duration: "20:11",
-                iframeTag: '<iframe width="560" height="315" src="https://www.youtube.com/embed/kf5nERp-sIM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
-            },
-            {
-                title: "Roomies Vs Scam",
-                duration: "20:31",
-                iframeTag: '<iframe width="560" height="315" src="https://www.youtube.com/embed/qgUDJ0sC_xw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
-            },
-            {
-                title: "Roomies In Scamland",
-                duration: "1:56",
-                iframeTag: '<iframe width="560" height="315" src="https://www.youtube.com/embed/WbMlxHTgDp4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
-            }
-        ],
-        [
-            {
-                seriesName: "Dating In Office",
-                totalEpisodes: 3
-            },
-            {
-                title: "Dating In Office | EP 1",
-                duration: '13:49',
-                iframeTag: '<iframe width="560" height="315" src="https://www.youtube.com/embed/cVaWQc0HyBk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
-            },
-            {
-                title: "Dating In Office | EP 2",
-                duration: '13:10',
-                iframeTag: '<iframe width="560" height="315" src="https://www.youtube.com/embed/sfraFm-f_5w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
-            },
-            {
-                title: "Dating In Office | EP 3",
-                duration: '11:50',
-                iframeTag: '<iframe width="560" height="315" src="https://www.youtube.com/embed/_Iv_WUkNW7g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
-            }
-        ],
-        [
-            {
-                seriesName: "Aspirants",
+                seriesName: "MORTAL GLITCH",
                 totalEpisodes: 5,
-                image: 'https://img.youtube.com/vi/ViOutJ0kuJY/mqdefault.jpg',
-                iframeTagTrailer: '<iframe width="560" height="315" src="https://www.youtube.com/embed/ViOutJ0kuJY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
+                image: 'https://img.youtube.com/vi/sRVJ9rEqiAQ/mqdefault.jpg',
+                iframeTagTrailer: '<iframe width="560" height="315" src="https://www.youtube.com/embed/sRVJ9rEqiAQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
             },
             {
-                title: "UPSC - Optional Me Kya Hai?",
-                duration: '46:16',
-                iframeTag: '<iframe width="560" height="315" src="https://www.youtube.com/embed/0Kl1ucZuSZ8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
+                title: "Only The Hero Can Defeat The Beast",
+                image: 'https://img.youtube.com/vi/yHM2JuYjDN0/mqdefault.jpg',
+                iframeTag: '<iframe width="560" height="315" src="https://www.youtube.com/embed/yHM2JuYjDN0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
             },
             {
-                title: "Teacher Sahi Hona Chahiye",
-                duration: "39:00",
-                iframeTag: '<iframe width="560" height="315" src="https://www.youtube.com/embed/7xdt3z85hu4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
+                title: "Your Squire Will Guide and Protect You",
+                image: 'https://img.youtube.com/vi/zclGUt3NvfM/mqdefault.jpg',
+                iframeTag: '<iframe width="560" height="315" src="https://www.youtube.com/embed/zclGUt3NvfM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
             },
             {
-                title: "Positive Approach Rakh Yaar",
-                duration: "45:36",
-                iframeTag : '<iframe width="560" height="315" src="https://www.youtube.com/embed/WeWXC_ivl5s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
+                title: "Strength Does Not Defeat The Beast",
+                image: 'https://img.youtube.com/vi/-uFsDvaGLEY/mqdefault.jpg',
+                iframeTag: '<iframe width="560" height="315" src="https://www.youtube.com/embed/-uFsDvaGLEY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
             },
             {
-                title: "Plan B Kya Hai?",
-                duration: "49:41",
-                iframeTag: '<iframe width="560" height="315" src="https://www.youtube.com/embed/MYQB8SNy8Gc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
+                title: "Sibaris, City of Thieves",
+                image: 'https://img.youtube.com/vi/wBRthE7C5Ns/mqdefault.jpg',
+                iframeTag: '<iframe width="560" height="315" src="https://www.youtube.com/embed/wBRthE7C5Ns" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
             },
             {
-                title: "Pre... Mains Aur Life",
-                duration: "39:59",
-                iframeTag: '<iframe width="560" height="315" src="https://www.youtube.com/embed/5H8xQF0PwvA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
+                title: "There Is Always A Way",
+                image: 'https://img.youtube.com/vi/mjScU2LYUeE/mqdefault.jpg',
+                iframeTag: '<iframe width="560" height="315" src="https://www.youtube.com/embed/mjScU2LYUeE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
             }
         ],
         [
             {
-                seriesName: "Kota Factory",
+                seriesName: "RETRO TECH - Season 1",
+                totalEpisodes: 6,
+                image: 'https://img.youtube.com/vi/mXgG8k5tTFM/mqdefault.jpg',
+                iframeTagTrailer: '<iframe width="560" height="315" src="https://www.youtube.com/embed/mXgG8k5tTFM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
+            },
+            {
+                title: "CAMCORDER",
+                image: 'https://img.youtube.com/vi/kMtN9KJHn5Y/mqdefault.jpg',
+                iframeTag: '<iframe width="560" height="315" src="https://www.youtube.com/embed/kMtN9KJHn5Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
+            },
+            {
+                title: "MACINTOSH",
+                image: 'https://img.youtube.com/vi/VJI88QIW7H4/mqdefault.jpg',
+                iframeTag: '<iframe width="560" height="315" src="https://www.youtube.com/embed/VJI88QIW7H4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
+            },
+            {
+                title: "SEGA GENESIS",
+                image: 'https://img.youtube.com/vi/PRVr1heimY8/mqdefault.jpg',
+                iframeTag: '<iframe width="560" height="315" src="https://www.youtube.com/embed/PRVr1heimY8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
+            },
+            {
+                title: 'WALKMAN',
+                image: 'https://img.youtube.com/vi/AjQ7CEeONb4/mqdefault.jpg',
+                iframeTag: '<iframe width="560" height="315" src="https://www.youtube.com/embed/AjQ7CEeONb4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
+            },
+            {
+                title: 'POLAROID',
+                image: 'https://img.youtube.com/vi/6oHrNuXPVck/mqdefault.jpg',
+                iframeTag: '<iframe width="560" height="315" src="https://www.youtube.com/embed/6oHrNuXPVck" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
+            },
+            {
+                title: 'DYNATAC',
+                image: 'https://img.youtube.com/vi/kOEXcMoh2II/mqdefault.jpg',
+                iframeTag: '<iframe width="560" height="315" src="https://www.youtube.com/embed/kOEXcMoh2II" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
+            }
+        ],
+        [
+            {
+                seriesName: 'RETRO TECH - Season 2',
                 totalEpisodes: 5,
-                image: 'https://img.youtube.com/vi/pNZQ6msbOvM/mqdefault.jpg',
-                iframeTagTrailer: '<iframe width="560" height="315" src="https://www.youtube.com/embed/pNZQ6msbOvM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
+                image: 'https://img.youtube.com/vi/46ZIEyPkyzA/mqdefault.jpg',
+                iframeTagTrailer: '<iframe width="560" height="315" src="https://www.youtube.com/embed/46ZIEyPkyzA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
             },
             {
-                title: "Inventory",
-                duration: "47:42",
-                iframeTag: '<iframe width="560" height="315" src="https://www.youtube.com/embed/JWbnEt3xuos" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
+                title: 'Flying Cars',
+                image: 'https://img.youtube.com/vi/ifI_fwg55k8/mqdefault.jpg',
+                iframeTag: '<iframe width="560" height="315" src="https://www.youtube.com/embed/ifI_fwg55k8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
             },
             {
-                title: "Assembly Line",
-                duration: "30:26",
-                iframeTag: '<iframe width="560" height="315" src="https://www.youtube.com/embed/zW-fcAGzEew" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
+                title: 'Teleportation',
+                image: 'https://img.youtube.com/vi/tEmLMCPK8OE/mqdefault.jpg',
+                iframeTag: '<iframe width="560" height="315" src="https://www.youtube.com/embed/tEmLMCPK8OE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
             },
             {
-                title: "Optimization",
-                duration: "36:51",
-                iframeTag: '<iframe width="560" height="315" src="https://www.youtube.com/embed/gIwgSpEg6ZY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
+                title: 'Robots',
+                image: 'https://img.youtube.com/vi/nLeScEdf550/mqdefault.jpg',
+                iframeTag: '<iframe width="560" height="315" src="https://www.youtube.com/embed/nLeScEdf550" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
             },
             {
-                title: "Shutdown",
-                duration: "39:54",
-                iframeTag: '<iframe width="560" height="315" src="https://www.youtube.com/embed/SaCgKXQiXGE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
+                title: 'Hyperconnectivity',
+                image: 'https://img.youtube.com/vi/MhKiMPiZOdE/mqdefault.jpg',
+                iframeTag: '<iframe width="560" height="315" src="https://www.youtube.com/embed/MhKiMPiZOdE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
             },
             {
-                title: "Overhaul",
-                duration: "40:05",
-                iframeTag: '<iframe width="560" height="315" src="https://www.youtube.com/embed/923ks1pc0LQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
+                title: 'Smart Homes',
+                image: 'https://img.youtube.com/vi/ccnlAVDXd7k/mqdefault.jpg',
+                iframeTag: '<iframe width="560" height="315" src="https://www.youtube.com/embed/ccnlAVDXd7k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
             }
         ],
         [
@@ -356,76 +342,86 @@ const data = {
             },
             {
                 title: "How Far is Too Far?",
-                duration: "34:39",
+                image: 'https://img.youtube.com/vi/UwsrzCVZAb8/mqdefault.jpg',
                 iframeTag: '<iframe width="560" height="315" src="https://www.youtube.com/embed/UwsrzCVZAb8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
             },
             {
                 title: "Healed through A.I.",
-                duration: "39:54",
+                image: 'https://img.youtube.com/vi/V5aZjsWM2wo/mqdefault.jpg',
                 iframeTag: '<iframe width="560" height="315" src="https://www.youtube.com/embed/V5aZjsWM2wo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
             },
             {
                 title: "Using A.I. to build a better human",
-                duration: "44:26",
+                image: 'https://img.youtube.com/vi/lrv8ga02VNg/mqdefault.jpg',
                 iframeTag: '<iframe width="560" height="315" src="https://www.youtube.com/embed/lrv8ga02VNg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
             },
             {
                 title: "Love, art and stories: decoded",
-                duration: "38:56",
+                image: 'https://img.youtube.com/vi/Kr1fmKVY3cA/mqdefault.jpg',
                 iframeTag: '<iframe width="560" height="315" src="https://www.youtube.com/embed/Kr1fmKVY3cA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
             },
             {
                 title: "The 'Space Architects' of Mars",
-                duration: "30:10",
+                image: 'https://img.youtube.com/vi/lIvrIKaNCRE/mqdefault.jpg',
                 iframeTag: '<iframe width="560" height="315" src="https://www.youtube.com/embed/lIvrIKaNCRE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
             },
             {
                 title: "Will a robot take my job?",
-                duration: "36:13",
+                image: 'https://img.youtube.com/vi/f2aocKWrPG8/mqdefault.jpg',
                 iframeTag: '<iframe width="560" height="315" src="https://www.youtube.com/embed/f2aocKWrPG8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
             },
             {
                 title: "Saving the world one algorithm at a time",
-                duration: "46:36",
+                image: 'https://img.youtube.com/vi/0wy4u34fii4/mqdefault.jpg',
                 iframeTag: '<iframe width="560" height="315" src="https://www.youtube.com/embed/0wy4u34fii4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
             },
             {
                 title: "How A.I. is searching for Aliens",
-                duration: "36:11",
+                image: 'https://img.youtube.com/vi/VwtC_4t2g5M/mqdefault.jpg',
                 iframeTag: '<iframe width="560" height="315" src="https://www.youtube.com/embed/VwtC_4t2g5M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
             }
         ],
         [
             {
-                seriesName: "Cubicles",
-                totalEpisodes: 5,
-                image: 'https://img.youtube.com/vi/y5NutvTDpHQ/mqdefault.jpg',
-                iframeTagTrailer: '<iframe width="560" height="315" src="https://www.youtube.com/embed/y5NutvTDpHQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
+                seriesName: "Growing with Lottie Dottie",
+                totalEpisodes: 7,
+                image: 'https://img.youtube.com/vi/7h3aVHhK2C0/mqdefault.jpg',
+                iframeTagTrailer: '<iframe width="560" height="315" src="https://www.youtube.com/embed/7h3aVHhK2C0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
             },
             {
-                title: "Access Denied", 
-                duration: "25:33",
-                iframeTag: '<iframe width="560" height="315" src="https://www.youtube.com/embed/JbBsqmKclXE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
+                title: "The Great Treasure", 
+                image: 'https://img.youtube.com/vi/TG-Cb8SOuNQ/mqdefault.jpg',
+                iframeTag: '<iframe width="560" height="315" src="https://www.youtube.com/embed/TG-Cb8SOuNQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
             },
             {
-                title: "CTC",
-                duration: "25:25",
-                iframeTag: '<iframe width="560" height="315" src="https://www.youtube.com/embed/avbzjWknugI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
+                title: "Little Chickadee Makes A Friend",
+                image: 'https://img.youtube.com/vi/dCBeRO2bEnY/mqdefault.jpg',
+                iframeTag: '<iframe width="560" height="315" src="https://www.youtube.com/embed/dCBeRO2bEnY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
             },
             {
-                title: "Standby",
-                duration: "27:35",
-                iframeTag: '<iframe width="560" height="315" src="https://www.youtube.com/embed/KuG18GtLf5w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
+                title: "The Enchanted Island",
+                image: 'https://img.youtube.com/vi/k-3Qwbharwg/mqdefault.jpg',
+                iframeTag: '<iframe width="560" height="315" src="https://www.youtube.com/embed/k-3Qwbharwg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
             },
             {
-                title: "Reconfiguration",
-                duration: "30:48",
-                iframeTag: '<iframe width="560" height="315" src="https://www.youtube.com/embed/doGwuGjX-ME" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
+                title: "Little Chickadee Builds A Kite",
+                image: 'https://img.youtube.com/vi/cuQ5imFJlkQ/mqdefault.jpg',
+                iframeTag: '<iframe width="560" height="315" src="https://www.youtube.com/embed/cuQ5imFJlkQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
             },
             {
-                title: "System Down",
-                duration: "27:47",
-                iframeTag: '<iframe width="560" height="315" src="https://www.youtube.com/embed/DQUwWbKCaa8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
+                title: "Lost In The Mountain",
+                image: 'https://img.youtube.com/vi/e0UlDdeQcm0/mqdefault.jpg',
+                iframeTag: '<iframe width="560" height="315" src="https://www.youtube.com/embed/e0UlDdeQcm0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
+            },
+            {
+                title: 'Tidy Room',
+                image: 'https://img.youtube.com/vi/NHQc-tRkkVg/mqdefault.jpg',
+                iframeTag: '<iframe width="560" height="315" src="https://www.youtube.com/embed/NHQc-tRkkVg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
+            },
+            {
+                title: 'I Didn’t Mean To!',
+                image: 'https://img.youtube.com/vi/bK6_8drMD9o/mqdefault.jpg',
+                iframeTag: '<iframe width="560" height="315" src="https://www.youtube.com/embed/bK6_8drMD9o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
             }
         ]
     ],
