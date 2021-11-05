@@ -5,10 +5,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" />
     <link rel="stylesheet" href="../css/index.css" />
-    <script src = "https://smtpjs.com/v3/smtp.js"></script>
-    <link rel="shortcut icon" href="favicon.ico" />
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <link rel="shortcut icon" href="../favicon.ico" />
     <title>Shiba Contact</title>
 </head>
 
@@ -26,21 +27,21 @@
                 <i class="fa fa-times"></i>
             </label>
             <div class="logo">
-                <a href="./index.html"><img src="../images/shiba-show-logo.png" alt="" /></a>
+                <a href="../index.html"><img src="../images/shiba-show-logo.png" alt="" /></a>
             </div>
             <ul class="menu">
                 <li>
-                    <a href="#movies"><i class="fa fa-video-camera"></i>Movies</a>
+                    <a href="../index.html#movies"><i class="fa fa-video-camera"></i>Movies</a>
                 </li>
                 <li>
-                    <a href="#songs"><i class="fa fa-music"></i>Songs</a>
+                    <a href="../index.html#songs"><i class="fa fa-music"></i>Songs</a>
                 </li>
                 <li>
-                    <a href="#webseries"><i class="fa fa-film"></i>Web-Series</a>
+                    <a href="../index.html#webseries"><i class="fa fa-film"></i>Web-Series</a>
                 </li>
             </ul>
             <div class="searchbar">
-                <a title="Seach Movies & More" href="./pages/search.html"><i class="fa fa-search"></i></a>
+                <a title="Seach Movies & More" href="./search.html"><i class="fa fa-search"></i></a>
             </div>
         </div>
 
@@ -48,11 +49,12 @@
         <!--    HEADER SECTION COMPLETED   -->
 
         <!--    MAIN CONTENT     -->
-        
+
         <section class="contact">
             <div class="content">
                 <h1>Contact us</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto voluptates commodi aliquam sequi enim
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto voluptates commodi aliquam sequi
+                    enim
                     deleniti numquam autem quod. Laboriosam vel at soluta facilis sunt fugiat sapiente reprehenderit</p>
             </div>
             <div class="container">
@@ -121,14 +123,12 @@
                         </li>
                     </ul>
                 </div>
-                <div class="footer-links">
+                <div class="footer-links" style="margin-bottom: 10px;">
                     <ul class="footer-menu">
                         <li><a href="../index.html">Home</a></li>
-                        <li><a href="./about.html">About</a></li>
-                        <li><a href="#terms">Terms</a></li>
-                        <li><a href="#privacy">Privacy Policy</a></li>
-                        <li><a href="#faq">FAQ</a></li>
-                        <li><a href="#feeedback">FeedBack</a></li>
+                        <li><a href="./about.html">About Us</a></li>
+                        <li><a href="./faq.html">FAQ</a></li>
+                        <li><a href="#">Contact Us</a></li>
                     </ul>
                 </div>
 
@@ -142,16 +142,16 @@
 
         <script>
             function handleSubmit() {
-                console.log("function called");
+                // console.log("function called");
                 sendMailToClient();
             }
-    
+
             function sendMailToClient() {
                 var name = document.querySelector(".name").value;
                 var email = document.querySelector(".email").value;
-                var message = document.querySelector(".message").value;            
+                var message = document.querySelector(".message").value;
                 Email.send({
-                    SecureToken : "7843f900-6b48-463a-8bfd-35a702fab679",
+                    SecureToken: "7843f900-6b48-463a-8bfd-35a702fab679",
                     To: email,
                     From: "shibaconnect24x7@gmail.com",
                     Subject: "Greetings from Shiba Show",
