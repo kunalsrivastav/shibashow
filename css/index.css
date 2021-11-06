@@ -8,6 +8,8 @@
 html {
     scroll-padding-top: 75px;
     scroll-behavior: smooth;
+    scrollbar-width: none;
+    scrollbar-color: transparent transparent;
 }
 
 .homepage {
@@ -285,7 +287,7 @@ html {
     position: relative;
 }
 
-.movie-box :hover {
+.movie-card:hover, .song-card:hover, .webseries-card:hover, .search-card:hover {
     transform: scale(1.04);
 }
 
@@ -404,14 +406,14 @@ iframe {
 @media (max-width: 600px) {
     iframe {
         width: 400px;
-        height: 250px;
+        height: 220px;
     }
 }
 
 @media (max-width: 420px) {
     iframe {
-        width: 200px;
-        height: 120px;
+        width: 280px;
+        height: 160px;
     }
 }
 
@@ -420,6 +422,7 @@ iframe {
 .modal-footer {
     background-color: #0c111b;
     color: white;
+    min-width: 280px;
 }
 
 .modal-body {

@@ -95,7 +95,7 @@ const data = {
         {
             title: "Param Sundari",
             image: 'https://img.youtube.com/vi/w4ClQO0FFQg/mqdefault.jpg',
-            iframeTag: '<iframe width="560" height="315" src="https://www.youtube.com/embed/w4ClQO0FFQg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>>'
+            iframeTag: '<iframe width="560" height="315" src="https://www.youtube.com/embed/w4ClQO0FFQg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
         },
         {
             title: "Manike Mage Hithe",
@@ -427,7 +427,6 @@ const data = {
     ],
 };
 
-
 // Movies Section
 var movieBox = document.querySelector(".movie-box");
 const totalMovies = data.movies.length;
@@ -471,6 +470,8 @@ function openMovieModal(id) {
                             '</div>' + 
                         '</div>';
     main.appendChild(newDiv);
+    document.querySelector(".modal").style.pointerEvents = 'none';
+    document.querySelector(".modal-dialog").style.pointerEvents = 'auto';
     document.querySelector('.close').onclick = delMovieModal;
     document.querySelector('.delMod').onclick = delMovieModal;
 }
@@ -523,6 +524,8 @@ function openSongModal(id) {
                             '</div>' + 
                         '</div>';
     main.appendChild(newDiv);
+    document.querySelector(".modal").style.pointerEvents = 'none';
+    document.querySelector(".modal-dialog").style.pointerEvents = 'auto';
     document.querySelector('.close').onclick = delSongModal;
     document.querySelector('.delMod').onclick = delSongModal;
 }
@@ -575,6 +578,8 @@ function openWebSeriesModal(id) {
                             '</div>' + 
                         '</div>';
     main.appendChild(newDiv);
+    document.querySelector(".modal").style.pointerEvents = 'none';
+    document.querySelector(".modal-dialog").style.pointerEvents = 'auto';
     document.querySelector('.close').onclick = delDisplayListModal;
     document.querySelector('.delMod').onclick = delDisplayListModal;
 }
@@ -617,6 +622,8 @@ function openEpisodeModal(index, episode) {
         player.innerHTML = data.webseries[index][episode].iframeTag;
     }
     modal.appendChild(player);
+    document.querySelector(".modal").style.pointerEvents = 'none';
+    document.querySelector(".modal-dialog").style.pointerEvents = 'auto';
 }
 
 
@@ -724,8 +731,6 @@ repeater();
 
 
 
-
-
 // Search Page
 function search() {
     var searchBox = document.getElementById("searchQuery");
@@ -829,6 +834,8 @@ function openSearchMovieModal(id) {
                             '</div>' + 
                         '</div>';
     main.appendChild(newDiv);
+    document.querySelector(".modal").style.pointerEvents = 'none';
+    document.querySelector(".modal-dialog").style.pointerEvents = 'auto';
     document.querySelector('.close').onclick = delSearchMovieModal;
     document.querySelector('.delMod').onclick = delSearchMovieModal;
 }
@@ -860,6 +867,8 @@ function openSearchSongModal(id) {
                             '</div>' + 
                         '</div>';
     main.appendChild(newDiv);
+    document.querySelector(".modal").style.pointerEvents = 'none';
+    document.querySelector(".modal-dialog").style.pointerEvents = 'auto';
     document.querySelector('.close').onclick = delSearchSongModal;
     document.querySelector('.delMod').onclick = delSearchSongModal;
 }
@@ -895,6 +904,8 @@ function openSearchSeriesModal(index, j) {
                             '</div>' + 
                         '</div>';
     main.appendChild(newDiv);
+    document.querySelector(".modal").style.pointerEvents = 'none';
+    document.querySelector(".modal-dialog").style.pointerEvents = 'auto';
     document.querySelector('.close').onclick = delSearchSeriesModal;
     document.querySelector('.delMod').onclick = delSearchSeriesModal;
 }
